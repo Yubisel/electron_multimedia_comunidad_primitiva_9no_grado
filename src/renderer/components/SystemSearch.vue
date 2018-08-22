@@ -18,6 +18,7 @@
     .search-container{
         float: right;
         display: flex;
+        margin-top: auto;
     }
     a{
         display: inline-block;

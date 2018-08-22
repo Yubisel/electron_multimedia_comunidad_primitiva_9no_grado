@@ -84,7 +84,10 @@
     height: 96px;
     width: 100%;
     margin: 0;
+    margin-bottom: 6px;
     padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
   }
   .content{
     background: #ffffff;
