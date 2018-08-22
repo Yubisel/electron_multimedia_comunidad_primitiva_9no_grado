@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="inner-page">
         <p>Ubicacion Geografica</p>
         Ubicación geográfica de la provincia de Granma.
  

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="inner-page">
         <p>Sitios Arqueologicos</p>
 
         Sitios arqueológicos por municipios

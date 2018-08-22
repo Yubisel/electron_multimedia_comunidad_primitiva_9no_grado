@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="inner-page">
         <p>Comunidades</p>
 
         Comunidades de recolectores-cazadores-pescadores reportados en la provincia de Granma
@@ -22,8 +22,7 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
         data() {
             return {
                 query: '',
-                content: 'este es un datos de prueba',
-                show: true
+                content: 'este es un datos de prueba'
             }
         },
         methods: {

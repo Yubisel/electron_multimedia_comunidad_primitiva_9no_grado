@@ -116,4 +116,7 @@
   .inner-page p{
     margin-bottom: 20px;
   }
+    .highlightText {
+        background: yellow;
+    }
 </style>

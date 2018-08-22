@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="inner-page">
         <p>Galeria</p>
     </div>
 </template>
