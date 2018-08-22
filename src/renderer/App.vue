@@ -6,7 +6,9 @@
         <system-menu></system-menu>
       </div>
       <div class="right-side">
-        <div class="header-right"></div>
+        <div class="header-right">
+          <system-search></system-search>
+        </div>
         <div class="content">
             <router-view></router-view>
         </div>
@@ -22,10 +24,11 @@
 
 <script>
   import SystemMenu from './components/SystemMenu'
+  import SystemSearch from './components/SystemSearch'
 
   export default {
     name: 'Home-Page',
-    components: { SystemMenu },
+    components: { SystemMenu, SystemSearch },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
