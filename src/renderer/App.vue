@@ -42,6 +42,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: none;
   }
 
   body { 
@@ -89,6 +90,8 @@
     background: #ffffff;
     height: calc(100% - 96px);
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
   footer{
     height: 34px;
@@ -97,5 +100,20 @@
     color: #EBCE92;
     text-align: center;
     padding-top: 8px;
+  }
+
+  .inner-page{
+    padding: 0 60px 20px;
+    height: 100%;
+    overflow-y: scroll;
+    text-align: justify;
+  }
+  .inner-page h2{
+    overflow: auto;
+    color: #E22000;
+    margin: 40px 0 20px;
+  }
+  .inner-page p{
+    margin-bottom: 20px;
   }
 </style>
