@@ -1,9 +1,8 @@
 <template>
   <nav>
-
             <router-link :to="{ name: 'poblamiento' }">
               <img class="item-active" src="~@/assets/images/menu/menu_pobl_abor_activo.png">
-              <img class="item-inactive" src="~@/assets/images/menu/menu_pobl_abor_activo.png">
+              <img class="item-inactive" src="~@/assets/images/menu/menu_pobl_abor_inactivo.png">
             </router-link>
             <router-link :to="{ name: 'ubicacion-geografica' }">
               <img class="item-active" src="~@/assets/images/menu/menu_ubic_geograf_activo.png">
@@ -18,7 +17,7 @@
               <img class="item-inactive" src="~@/assets/images/menu/menu_sitios_arq_inactivo.png">
             </router-link>
             <router-link :to="{ name: 'galeria' }">
-              <img class="item-active" src="~@/assets/images/menu/menu_galeria_inactivo.png">
+              <img class="item-active" src="~@/assets/images/menu/menu_galeria_activo.png">
               <img class="item-inactive" src="~@/assets/images/menu/menu_galeria_inactivo.png">
             </router-link>
     </nav>

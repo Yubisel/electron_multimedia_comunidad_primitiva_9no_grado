@@ -13,6 +13,7 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
         </div>
         <br />
         <div v-html="highlight()"></div>
+
     </div>
 </template>
 
@@ -22,6 +23,7 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
             return {
                 query: '',
                 content: 'este es un datos de prueba',
+                show: true
             }
         },
         methods: {
@@ -38,7 +40,4 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
 </script>
 
 <style>
-    .highlightText {
-        background: yellow;
-    }
 </style>

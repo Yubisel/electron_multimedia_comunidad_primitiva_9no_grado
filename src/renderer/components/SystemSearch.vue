@@ -32,4 +32,7 @@
         padding-right: 32px;
         color: #ffffff;
     }
+    .highlightText {
+        background: yellow;
+    }
 </style>
