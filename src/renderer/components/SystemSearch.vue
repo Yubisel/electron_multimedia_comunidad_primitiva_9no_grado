@@ -19,6 +19,7 @@
         float: right;
         display: flex;
         margin-top: auto;
+        margin-right: 55px;
     }
     a{
         display: inline-block;

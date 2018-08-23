@@ -1,14 +1,20 @@
 <template>
-    <div class="inner-page">
-        <div v-html="content"></div>
-    </div>
+    <vue-scrollbar classes="my-scrollbar" ref="Scrollbar">
+        <div class="inner-page">
+            <div v-html="content"></div>
+        </div>
+    </vue-scrollbar>
 </template>
 
 <script>
-    export default {
-        data(){
-            return {
-                content: `<h2>Poblamiento aborigen de Cuba</h2>
+
+// It's required to set min height of the scrollbar wrapper
+//require("./your/custom/style/app.css")
+
+export default {
+  data() {
+    return {
+      content: `<h2>Poblamiento aborigen de Cuba</h2>
                             <p>
                             El hombre no pobló a Cuba de una sola oleada, lo hizo en diferentes momentos y desde diferentes áreas de la cuenca del Caribe. Se acepta que este poblamiento ocurrió hace alrededor de 4 000 años; en ello debieron influir elementos geográficos tales como los grandes ríos que desembocan en estos mares, la dirección de las corrientes marinas, y los vientos, los huracanes y el arco de Las Antillas.
                             </p>
@@ -44,10 +50,10 @@
                             Según indagaciones históricas se conoce que estas comunidades utilizaron fibras para confeccionar redes de pesca, telas, esteras, el cibucán (utilizado para extraer el zumo a la masa de la yuca rayada), así como en la cestería.
                             El cacique desempeñaba un papel importante en estas comunidades, pues era la persona encargada de dirigir y organizar las actividades de la colectividad; el ejercicio de esta función le reconocía una autoridad sobre ellos. Por su parte el behíque también cumplía funciones importantes, tales como, hechicero, médico y guardián de la memoria oral de la comunidad (historia).
                             El estudio de la comunidad primitiva es difícil pues la información histórica es insuficiente y en la mayoría de los casos no existe, dado que el nivel de desarrollo de estos hombres no incluía la escritura, por tanto es la Arqueología la encargada de estudiarla, a través de sus métodos.
-                            </p>`,
-            }
-        }
-    }
+                            </p>`
+    };
+  }
+};
 </script>
 
 <style scoped>

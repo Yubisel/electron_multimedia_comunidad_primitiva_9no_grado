@@ -38,88 +38,20 @@
 </script>
 
 <style>
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: none;
-  }
-
   body { 
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 14px;
     background: url("./assets/images/background.png");  
   }
-
-  #wrapper {
-    height: calc(100vh - 34px);
-    padding: 0;
-    width: 100vw;
-  }
-
-  #logo {
-    height: auto;
-    margin-bottom: 40px;
-    width: 337px;
-  }
-  .left-side {
-    width: 337px;
-    height: 100%;
-    float: left;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  .right-side{
-    float: right;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: calc(100vw - 337px);
-     display: flex;
-    flex-direction: column;
-  }
-  .header-right{
-    height: 96px;
-    width: 100%;
-    margin: 0;
-    margin-bottom: 6px;
-    padding: 0;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .content{
-    background: #ffffff;
-    height: calc(100% - 96px);
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
   footer{
-    height: 34px;
-    background: url("./assets/images/footer.png") no-repeat scroll 0 50%;  
-    border-top: 2px solid #E0C529;
-    color: #EBCE92;
-    text-align: center;
-    padding-top: 8px;
+    background: url("assets/images/footer.png") no-repeat scroll 0 50%;  
   }
-
-  .inner-page{
-    padding: 0 60px 20px;
-    height: 100%;
-    overflow-y: scroll;
-    text-align: justify;
-  }
-  .inner-page h2{
-    overflow: auto;
-    color: #E22000;
-    margin: 40px 0 20px;
-  }
-  .inner-page p{
-    margin-bottom: 20px;
-  }
-    .highlightText {
-        background: yellow;
-    }
+  .vue-scrollbar__scrollbar-vertical, .vue-scrollbar__scrollbar-vertical:hover{
+    background: url("assets/images/scrollbar_background.png") no-repeat scroll 50% 50%;  
+    background-size: auto 100%;
+}
+.vue-scrollbar__scrollbar-vertical .scrollbar{
+    background: url("assets/images/icons/icon_scroll.png") no-repeat scroll 50% 50%;  
+    width: 30px;
+    left: -10px;
+    /*height: 41px !important;*/
+}
 </style>
