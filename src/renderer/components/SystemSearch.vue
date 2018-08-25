@@ -3,9 +3,10 @@
         <a href="#">
             <img src="~@/assets/images/icons/icon_unk.png">
         </a>
-        <a href="#">
+        <a href="#/home">
             <img src="~@/assets/images/icons/icon_help.png">
         </a>
+        <router-link :to="{ name: 'result' }"><img src="~@/assets/images/icons/icon_help.png"></router-link>
         <input v-model="to_find" type="text" value="" placeholder="Buscar">
     </div>
 </template>

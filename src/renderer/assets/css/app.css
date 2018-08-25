@@ -109,7 +109,34 @@
       text-align: center;
       font-weight: bold;
     }
-
+    .hidden{
+      display: none;
+    }
+    ul.content-switcher{
+      list-style: none;
+      margin: 0 -65px 30px -60px;
+    }
+    ul.content-switcher li{
+      list-style: none;
+      margin: 0;
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+    }
+    ul.content-switcher li a{
+      font-size: .8em;
+      list-style: none;
+      margin: 0;
+      padding: 15px 0;
+      display: block;
+      background: #303030;
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    ul.content-switcher li a.is-active{
+      background: #E21F00;
+    }
     /*------------------------------------- scrollbar style -----------------------------------------*/
 .my-scrollbar {
     width: 100%;

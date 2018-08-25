@@ -361,7 +361,7 @@
                         <ul>
                             <li>Punta de Hicacos </li>
                         </ul>
-                        <h3>Comunidades de agricultores- ceramistas </h3>
+                        <h3>Comunidades de agricultores-ceramistas </h3>
                         <ul>
                             <li>Cueva de Nuevo Mundo </li>
                             <li>Ocuje </li>

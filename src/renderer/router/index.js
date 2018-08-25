@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Poblamiento from '@/components/Poblamiento'
 import UbicacionGeografica from '@/components/UbicacionGeografica'
 import Comunidades from '@/components/Comunidades'
 import SitiosArqueologicos from '@/components/SitiosArqueologicos'
@@ -22,7 +23,7 @@ export default new Router({
     {
       path: '/poblamiento',
       name: 'poblamiento',
-      component: require('@/components/Poblamiento').default
+      component: Poblamiento
     },
     {
       path: '/ubicacion-geografica',
@@ -43,6 +44,11 @@ export default new Router({
       path: '/galeria',
       name: 'galeria',
       component: Galeria
+    },
+    {
+      path: '/result',
+      name: 'result',
+      component: require('@/components/SearchResult').default
     },
     {
       path: '*',
