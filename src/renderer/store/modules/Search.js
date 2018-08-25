@@ -1,22 +1,19 @@
 const state = {
-  query: ''
+  query: 'eatat'
 }
 
-/*const mutations = {
-  DECREMENT_MAIN_COUNTER (state) {
-    state.main--
-  },
-  INCREMENT_MAIN_COUNTER (state) {
-    state.main++
+const mutations = {
+  updateQuery (state, value) {
+    state.query = value
   }
-}*/
+}
 
 const actions = {
-  
+
 }
 
 export default {
   state,
-  //mutations,
+  mutations,
   actions
 }

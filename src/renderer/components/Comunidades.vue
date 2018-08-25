@@ -9,11 +9,11 @@ situados en diferentes puntos de la geografía, generalmente próximos a zonas c
 arroyos y las costas. Se encuentran distribuidos de la siguiente manera por municipios:
 
         <div>
-            Search: <input type="text" v-model="query" placeholder="Search" />
+            Search: <input type="text" v-model="query2" placeholder="Search" />
         </div>
         <br />
         <div v-html="highlight()"></div>
-
+        <div>{{to_find}}</div>
     </div>
 </template>
 
@@ -21,18 +21,28 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
     export default {
         data() {
             return {
-                query: '',
-                content: 'este es un datos de prueba'
+                nc: 15,
+                query2: '',
+                content: 'este es un dato de prueba'
+            }
+        },
+        computed:{
+            to_find (){
+                    return this.$store.state.query
             }
         },
         methods: {
             highlight() {
-                if(!this.query) {
+                if(!this.query2) {
                     return this.content;
                 }
-                return this.content.replace(new RegExp(this.query, "gi"), match => {
+                return this.content.replace(new RegExp(this.query2, "gi"), match => {
                     return '<span class="highlightText">' + match + '</span>';
                 });
+            },
+            globalS(){
+                console.log(this.$store);
+                return this.$store.state.query
             }
         }
     }

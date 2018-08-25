@@ -71,8 +71,22 @@
   }
   .inner-page h2{
     overflow: auto;
-    color: #E22000;
+    color: #8E4B02;
     margin: 40px 0 20px;
+  }
+  .inner-page h3{
+    overflow: auto;
+    color: #8E4B02;
+  }
+  .inner-page ul{
+    list-style: none;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  .inner-page ul li{
+    list-style: none;
+    margin: 2px 0;
   }
   .inner-page p{
     margin-bottom: 20px;
@@ -80,10 +94,27 @@
     .highlightText {
         background: yellow;
     }
+
+    .img-container{
+      text-align: center;
+    }
+    .img{
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid #8E4B02;
+    }
+    .img-description{
+      font-style: italic;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    /*------------------------------------- scrollbar style -----------------------------------------*/
 .my-scrollbar {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to left, #000000 0%, #000000 55px, #ffffff 55px, #ffffff 100%);
+    background-image: linear-gradient(to left, #000000 0%, #000000 55px, #EDE5DC 55px, #EDE5DC 100%);
   }
 
   .vue-scrollbar__wrapper {
@@ -92,4 +123,43 @@
 
 .vue-scrollbar__scrollbar-vertical {
     right: 20px;
+}
+
+.vue-scrollbar-transition, .vue-scrollbar__scrollbar-vertical {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.vue-scrollbar-transition--scrollbar {
+  transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+}
+
+.vue-scrollbar__wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.vue-scrollbar__wrapper:hover .vue-scrollbar__scrollbar-vertical {
+  opacity: 1;
+}
+.vue-scrollbar__scrollbar-vertical{
+  opacity: 0.5;
+  position: absolute;
+}
+.vue-scrollbar__scrollbar-vertical .scrollbar {
+  position: relative;
+  cursor: default;
+}
+.vue-scrollbar__scrollbar-vertical {
+  width: 10px;
+  height: 100%;
+  top: 0;
+}
+.vue-scrollbar__scrollbar-vertical .scrollbar {
+  width: 30px;
+  left: -10px;
 }

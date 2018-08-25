@@ -2,7 +2,9 @@
   <div id="app">
     <div id="wrapper">
       <div class="left-side">
+        <router-link :to="{ name: 'home' }">
         <img id="logo" src="~@/assets/images/titulo.png">
+        </router-link>
         <system-menu></system-menu>
       </div>
       <div class="right-side">
@@ -29,11 +31,7 @@
   export default {
     name: 'Home-Page',
     components: { SystemMenu, SystemSearch },
-    methods: {
-      open (link) {
-        this.$electron.shell.openExternal(link)
-      }
-    }
+    methods: {}
   }
 </script>
 
@@ -50,8 +48,5 @@
 }
 .vue-scrollbar__scrollbar-vertical .scrollbar{
     background: url("assets/images/icons/icon_scroll.png") no-repeat scroll 50% 50%;  
-    width: 30px;
-    left: -10px;
-    /*height: 41px !important;*/
 }
 </style>

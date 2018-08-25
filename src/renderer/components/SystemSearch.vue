@@ -6,11 +6,16 @@
         <a href="#">
             <img src="~@/assets/images/icons/icon_help.png">
         </a>
-        <input type="text" value="" placeholder="Buscar">
+        <input v-model="to_find" type="text" value="" placeholder="Buscar">
     </div>
 </template>
 <script>
     export default {
+        data(){
+            return {
+                to_find: ''
+            }
+        }
     }
 </script>
 
