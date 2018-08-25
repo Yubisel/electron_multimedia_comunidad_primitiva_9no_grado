@@ -47,6 +47,6 @@
     background-size: auto 100%;
 }
 .vue-scrollbar__scrollbar-vertical .scrollbar{
-    background: url("assets/images/icons/icon_scroll.png") no-repeat scroll 50% 50%;  
+    background: url("assets/images/icons/icon_scroll.png") no-repeat;  
 }
 </style>

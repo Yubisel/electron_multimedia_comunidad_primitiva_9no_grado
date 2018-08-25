@@ -14,7 +14,9 @@
         @mousedown="startDrag "
         :style="{
           height: height+'%',
-          top: scrolling + '%'
+          'min-height': '30px',
+          top: scrolling + '%',
+          'background-position': ((scrolling <= ((100 - height)/2)) ? '50% 0' : '50% 100%' )
         }">
       </div>
 
