@@ -57,14 +57,28 @@ export default new Router({
   ]
 })
 
-Vue.prototype.$appName = 'My App'
+require('@/config/config')
 
 Vue.mixin({
-  data: function() {
+  data(){
     return {
-      get query() {
-        return 'weq';
+
+    }
+    //notSearcheable: ['<p>', '</p', '</p>', '<h1>', '</h1>']
+  },
+  created: function () {
+  },
+  methods:{
+    searchAndHighlight:function(str, cont){
+        if((!str) || (str.length < 3)) {
+          return cont;
       }
+      return cont.replace(new RegExp(str, "gi"), match => {
+          return '<span class="highlightText">' + match + '</span>';
+      });
+    },
+    filterSearchText: function(str){
+
     }
   }
 })

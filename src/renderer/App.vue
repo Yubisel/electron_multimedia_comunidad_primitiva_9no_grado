@@ -9,16 +9,16 @@
       </div>
       <div class="right-side">
         <div class="header-right">
-          <system-search></system-search>
+          <system-search v-model="searchText"></system-search>
         </div>
         <div class="content">
-            <router-view></router-view>
+            <router-view v-bind:searchText="searchText"></router-view>
         </div>
       </div>
   </div><!--#wrapper-->
   <footer>
     <p>
-      Multimedia de Apoyo a la Enseñanza de la Historia de Cuba. Granma. Cuba 2018 
+      {{this.$appFooter}}
     </p>
   </footer>
   </div><!--#app-->
@@ -30,6 +30,11 @@
 
   export default {
     name: 'Home-Page',
+    data(){
+      return{
+        searchText: ''
+      }
+    },
     components: { SystemMenu, SystemSearch },
     methods: {}
   }

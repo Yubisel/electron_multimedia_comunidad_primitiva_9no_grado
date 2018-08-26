@@ -7,23 +7,18 @@
             <img src="~@/assets/images/icons/icon_help.png">
         </a>
         <router-link :to="{ name: 'result' }"><img src="~@/assets/images/icons/icon_help.png"></router-link>
-        <input v-model="to_find" type="text" value="" placeholder="Buscar" @change="changeFind">
+        <input placeholder="Buscar" v-bind:value="searchText"  v-on:input="$emit('input', $event.target.value)">
     </div>
 </template>
 <script>
     export default {
         data(){
             return {
-                to_find: ''
             }
         },
         methods: {
-            changeFind: function () {
-                console.log(this.appName)
-                this.appName = this.to_find
-                console.log(this.appName)
-            }
-        }
+        },
+        props: ['searchText']
     }
 </script>
 

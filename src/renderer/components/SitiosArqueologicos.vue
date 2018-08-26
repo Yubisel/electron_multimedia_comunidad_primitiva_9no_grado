@@ -91,7 +91,7 @@
                         <p>Es importante destacar que no todo el territorio de la provincia está explorado desde el punto de vista arqueológico, por lo que un número indeterminado de sitios no se han reportado para la ciencia. A continuación aparece el listado de sitios y su ubicación por municipios, lo que permitirá conocerlos y a su vez contribuir a su protección, pues son áreas que pueden alterarse con facilidad y perder su valor científico, debido a labores para el cultivo de la tierra, excavaciones para diferentes construcciones y también por la acción de la naturaleza como la erosión y las inundaciones. </p>
                         <p>Como se podrá apreciar en el texto y las imágenes, existe información abundante sobre algunos municipios y sitios arqueológicos en particular, sin embargo de otros es escasa. Esto se debe a que no todos los sitios han sido investigados al mismo nivel, pues esta es una labor paciente y costosa. </p>`,
                 bayamo_1: `<h2>Bayamo</h2>`, 
-                bayamo_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Bayamo</p>
+                bayamo_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Bayamo</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul><li>Valenzuela</li></ul>
                         <h3>Comunidades de agricultores- ceramistas</h3>
@@ -107,14 +107,14 @@
                             <li>Payares </li>
                         </ul>`,
                 bartolome_maso_1: `<h2>Bartolomé Masó</h2>`,
-                bartolome_maso_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Bartolomé Masó</p>
+                bartolome_maso_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Bartolomé Masó</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores</h3>
                         <ul>
                             <li>La Cubana  </li>
                             <li>Los Guayos </li>
                         </ul>`,
                 buey_arriba_1: `<h2>Buey Arriba</h2>`,
-                buey_arriba_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Buey Arriba</p>
+                buey_arriba_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Buey Arriba</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Limones </li>
@@ -131,7 +131,7 @@
                             <li>El Cerro de los Copales</li>
                         </ul>`,
                 campechuela_1: `<h2>Campechuela</h2>`,
-                campechuela_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Campechuela</p>
+                campechuela_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Campechuela</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Las Américas 1</li>
@@ -146,7 +146,7 @@
                             <li>El Martillo </li>
                         </ul>`,
                 cauto_cristo_1: `<h2>Cauto Cristo</h2>`,
-                cauto_cristo_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Cauto Cristo</p>
+                cauto_cristo_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Cauto Cristo</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>La Manchuria </li>
@@ -165,7 +165,7 @@
                             <li>El Cristo 2 </li>
                         </ul>`,
                 guisa_1: `<h2>Guisa</h2>`,
-                guisa_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Guisa</p>
+                guisa_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Guisa</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Manacal-La Olla</li>
@@ -177,7 +177,7 @@
                         </ul>
                         <p>En este municipio solo se reporta un sitio Manacal-La Olla y otro muy próximo en el límite con Jiguaní; aparecen áreas de interés arqueológico identificadas con letras, que constituyen zonas con una dispersión de piezas arqueológicas y no se ha podido precisar el asentamiento.</p>`,
                 jiguani_1: `<h2>Jiguaní</h2>`,
-                jiguani_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Jiguaní</p>
+                jiguani_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Jiguaní</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>El Huerto </li>
@@ -197,7 +197,7 @@
                             <li>El Calabazar </li>
                         </ul>`,
                 manzanillo_1: `<h2>Manzanillo</h2>`,
-                manzanillo_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Manzanillo </p>
+                manzanillo_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Manzanillo </p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Jutía </li>
@@ -213,7 +213,7 @@
                             <li>Calicito </li>
                         </ul>`,
                 media_luna_1: `<h2>Media Luna</h2>`,
-                media_luna_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Media Luna</p>
+                media_luna_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Media Luna</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Mala Noche 1 </li>
@@ -237,7 +237,7 @@
                             <li>Bagazal 1 </li>
                         </ul>`,
                 niquero_1: `<h2>Niquero</h2>`,
-                niquero_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Niquero</p>
+                niquero_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Niquero</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Cuchillo 1 </li>
@@ -307,7 +307,7 @@
                             <li>Cueva del Aura </li>
                         </ul>`,
                 rio_cauto_1: `<h2>Municipio de Río Cauto</h2>`,
-                rio_cauto_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Río Cauto</p>
+                rio_cauto_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Río Cauto</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Aguas verdes de Río Cauto </li>
@@ -356,7 +356,7 @@
                             <li>Jucaral de Cabezada </li>
                         </ul>`,
                 pilon_1: `<h2>Pilón</h2>`,
-                pilon_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Pilón</p>
+                pilon_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Pilón</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Punta de Hicacos </li>
@@ -368,7 +368,7 @@
                             <li>Alto de Elpidio </li>
                         </ul>`,
                 yara_1: `<h2>Yara</h2>`,
-                yara_2: `<p class="img-description">Ubicación de los sitios arqueológicos reportados en el municipio Yara</p>
+                yara_2: `<p class="img-desc">Ubicación de los sitios arqueológicos reportados en el municipio Yara</p>
                         <h3>Comunidades de recolectores-cazadores-pescadores </h3>
                         <ul>
                             <li>Leonero </li>
