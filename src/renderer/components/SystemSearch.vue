@@ -7,7 +7,7 @@
             <img src="~@/assets/images/icons/icon_help.png">
         </a>
         <router-link :to="{ name: 'result' }"><img src="~@/assets/images/icons/icon_help.png"></router-link>
-        <input v-model="to_find" type="text" value="" placeholder="Buscar">
+        <input v-model="to_find" type="text" value="" placeholder="Buscar" @change="changeFind">
     </div>
 </template>
 <script>
@@ -15,6 +15,13 @@
         data(){
             return {
                 to_find: ''
+            }
+        },
+        methods: {
+            changeFind: function () {
+                console.log(this.appName)
+                this.appName = this.to_find
+                console.log(this.appName)
             }
         }
     }

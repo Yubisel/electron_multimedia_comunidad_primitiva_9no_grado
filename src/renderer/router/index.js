@@ -57,6 +57,8 @@ export default new Router({
   ]
 })
 
+Vue.prototype.$appName = 'My App'
+
 Vue.mixin({
   data: function() {
     return {

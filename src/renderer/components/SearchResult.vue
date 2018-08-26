@@ -13,7 +13,7 @@ arroyos y las costas. Se encuentran distribuidos de la siguiente manera por muni
         </div>
         <br />
         <div v-html="highlight()"></div>
-        <div>{{to_find}}</div>
+        <div>{{this.$appName}}</div>
     </div>
 </template>
 
