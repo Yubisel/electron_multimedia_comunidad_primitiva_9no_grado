@@ -5,6 +5,7 @@ import UbicacionGeografica from '@/components/UbicacionGeografica'
 import Comunidades from '@/components/Comunidades'
 import SitiosArqueologicos from '@/components/SitiosArqueologicos'
 import Galeria from '@/components/Galeria'
+import Creator from '@/components/Creator'
 import VueScrollbar from "@/components/vue-scrollbar/vue-scrollbar"
 
 /*require("vue2-scrollbar/dist/style/vue2-scrollbar.css")*/
@@ -51,6 +52,11 @@ export default new Router({
       component: require('@/components/SearchResult').default
     },
     {
+      path: '/creator',
+      name: 'creator',
+      component: Creator
+    },
+    {
       path: '*',
       redirect: '/'
     }
@@ -72,6 +78,9 @@ Vue.mixin({
     searchAndHighlight:function(str, cont){
         if((!str) || (str.length < 3)) {
           return cont;
+      }
+      if (str === '@utor'){
+        this.$router.push('creator')
       }
       return cont.replace(new RegExp(str, "gi"), match => {
           return '<span class="highlightText">' + match + '</span>';

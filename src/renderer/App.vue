@@ -1,30 +1,36 @@
 <template>
   <div id="app">
-    <div id="wrapper">
-      <div class="left-side">
-        <router-link :to="{ name: 'home' }">
-        <img id="logo" src="~@/assets/images/titulo.png">
-        </router-link>
-        <system-menu></system-menu>
-      </div>
-      <div class="right-side">
-        <div class="header-right">
-          <system-search v-model="searchText"></system-search>
+    <div v-show="loadcomplete">
+      <div id="wrapper">
+        <div class="left-side">
+          <router-link :to="{ name: 'home' }">
+          <img id="logo" src="~@/assets/images/titulo.png">
+          </router-link>
+          <system-menu></system-menu>
         </div>
-        <div class="content">
-            <router-view v-bind:searchText="searchText"></router-view>
+        <div class="right-side">
+          <div class="header-right">
+            <system-search v-model="searchText"></system-search>
+          </div>
+          <div class="content">
+              <router-view v-bind:searchText="searchText"></router-view>
+          </div>
         </div>
-      </div>
-  </div><!--#wrapper-->
-  <footer>
-    <p>
-      {{this.$appFooter}}
-    </p>
-  </footer>
+    </div><!--#wrapper-->
+    <footer>
+      <p>
+        {{this.$appFooter}}
+      </p>
+    </footer>
+    </div>
+    <div v-show="!loadcomplete">
+      <system-splash v-on:loaded="loadcomplete = !loadcomplete"></system-splash>
+    </div>
   </div><!--#app-->
 </template>
 
 <script>
+  import SystemSplash from './components/SystemSplash'
   import SystemMenu from './components/SystemMenu'
   import SystemSearch from './components/SystemSearch'
 
@@ -32,10 +38,11 @@
     name: 'Home-Page',
     data(){
       return{
-        searchText: ''
+        searchText: '',
+        loadcomplete: false
       }
     },
-    components: { SystemMenu, SystemSearch },
+    components: { SystemSplash, SystemMenu, SystemSearch },
     methods: {}
   }
 </script>
