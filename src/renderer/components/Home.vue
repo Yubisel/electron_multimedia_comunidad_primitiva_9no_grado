@@ -1,13 +1,14 @@
 <template>
     <vue-scrollbar classes="my-scrollbar" ref="Scrollbar">
         <div class="inner-page">
-            <div v-html="content"></div>
+            <div v-html="searchAndHighlight(searchText, content)"></div>
         </div>
     </vue-scrollbar>
 </template>
 
 <script>
 export default{
+    props: ['searchText'],
     data() {
         return {
         content: `<h2>A los estudiantes</h2>

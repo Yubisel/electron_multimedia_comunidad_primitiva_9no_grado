@@ -1,19 +1,19 @@
 <template>
     <vue-scrollbar classes="my-scrollbar" ref="Scrollbar">
         <div class="inner-page">
-            <div v-html="content_1"></div>
+            <div v-html="searchAndHighlight(searchText, content_1)"></div>
             <div class="img-container">
             <img class="img" src="~@/assets/images/pages/poblamiento/mapa_1.jpg">
             </div>
-            <div v-html="content_2"></div>
+            <div v-html="searchAndHighlight(searchText, content_2)"></div>
             <div class="img-container">
             <img class="img" src="~@/assets/images/pages/poblamiento/mapa_2.jpg">
             </div>
-            <div v-html="content_3"></div>
+            <div v-html="searchAndHighlight(searchText, content_3)"></div>
             <div class="img-container">
             <img class="img" src="~@/assets/images/pages/poblamiento/mapa_3.jpg">
             </div>
-            <div v-html="content_4"></div>
+            <div v-html="searchAndHighlight(searchText, content_4)"></div>
         </div>
     </vue-scrollbar>
 </template>
@@ -24,6 +24,7 @@
 //require("./your/custom/style/app.css")
 
 export default {
+    props: ['searchText'],
   data() {
     return {
       content_1: `<h2>Poblamiento aborigen de Cuba</h2>

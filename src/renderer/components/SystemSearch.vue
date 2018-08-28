@@ -3,10 +3,9 @@
         <a href="#">
             <img src="~@/assets/images/icons/icon_unk.png">
         </a>
-        <a href="#/home">
+        <a href="#">
             <img src="~@/assets/images/icons/icon_help.png">
         </a>
-        <router-link :to="{ name: 'result' }"><img src="~@/assets/images/icons/icon_help.png"></router-link>
         <input placeholder="Buscar" v-bind:value="searchText"  v-on:input="$emit('input', $event.target.value)">
     </div>
 </template>

@@ -39,7 +39,7 @@
     data(){
       return{
         searchText: '',
-        loadcomplete: false
+        loadcomplete: true
       }
     },
     components: { SystemSplash, SystemMenu, SystemSearch },
@@ -47,7 +47,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   body { 
     background: url("./assets/images/background.png");  
   }
@@ -57,8 +57,8 @@
   .vue-scrollbar__scrollbar-vertical, .vue-scrollbar__scrollbar-vertical:hover{
     background: url("assets/images/scrollbar_background.png") no-repeat scroll 50% 50%;  
     background-size: auto 100%;
-}
-.vue-scrollbar__scrollbar-vertical .scrollbar{
-    background: url("assets/images/icons/icon_scroll.png") no-repeat;  
-}
+  }
+  .vue-scrollbar__scrollbar-vertical .scrollbar{
+      background: url("assets/images/icons/icon_scroll.png") no-repeat;  
+  }
 </style>

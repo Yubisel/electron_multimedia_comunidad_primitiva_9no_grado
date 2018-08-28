@@ -9,11 +9,11 @@
                 </li>
             </ul>
             <div :class="{'hidden' : c_menu!=0 }">
-                <div v-html="rcp_1"></div>
+                <div v-html="searchAndHighlight(searchText, rcp_1)"></div>
                 <div class="img-container">
                     <img class="img" src="~@/assets/images/pages/comunidades/mapa_5.jpg">
                 </div>
-                <div v-html="rcp_2"></div>
+                <div v-html="searchAndHighlight(searchText, rcp_2)"></div>
 
                 <div class="img-container">
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_1.jpg">
@@ -58,11 +58,11 @@
 
             </div>
             <div :class="{'hidden' : c_menu!=1 }">
-                <div v-html="ac_1"></div>
+                <div v-html="searchAndHighlight(searchText, ac_1)"></div>
                 <div class="img-container">
                     <img class="img" src="~@/assets/images/pages/comunidades/mapa_6.jpg">
                 </div>
-                <div v-html="ac_2"></div>
+                <div v-html="searchAndHighlight(searchText, ac_2)"></div>
 
                 <div class="img-container">
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_20.jpg">
@@ -110,6 +110,7 @@
 
 <script>
     export default {
+        props: ['searchText'],
         data() {
             return {
                 c_menu: 0,

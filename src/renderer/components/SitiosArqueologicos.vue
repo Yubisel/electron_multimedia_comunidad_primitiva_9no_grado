@@ -1,90 +1,91 @@
 <template>
     <vue-scrollbar classes="my-scrollbar" ref="Scrollbar">
         <div class="inner-page">
-            <div v-html="content"></div>
-            <div v-html="bayamo_1"></div>
+            <div v-html="searchAndHighlight(searchText, content)"></div>
+            <div v-html="searchAndHighlight(searchText, bayamo_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/bayamo.jpg">
             </div>
-            <div v-html="bayamo_2"></div>
+            <div v-html="searchAndHighlight(searchText, bayamo_2)"></div>
 
-            <div v-html="bartolome_maso_1"></div>
+            <div v-html="searchAndHighlight(searchText, bartolome_maso_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/bmaso.jpg">
             </div>
-            <div v-html="bartolome_maso_2"></div>
+            <div v-html="searchAndHighlight(searchText, bartolome_maso_2)"></div>
 
-            <div v-html="buey_arriba_1"></div>
+            <div v-html="searchAndHighlight(searchText, buey_arriba_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/barriba.jpg">
             </div>
-            <div v-html="buey_arriba_2"></div>
+            <div v-html="searchAndHighlight(searchText, buey_arriba_2)"></div>
 
-            <div v-html="campechuela_1"></div>
+            <div v-html="searchAndHighlight(searchText, campechuela_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/campechuela.jpg">
             </div>
-            <div v-html="campechuela_2"></div>
+            <div v-html="searchAndHighlight(searchText, campechuela_2)"></div>
 
-            <div v-html="cauto_cristo_1"></div>
+            <div v-html="searchAndHighlight(searchText, cauto_cristo_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/cauto_cristo.jpg">
             </div>
-            <div v-html="cauto_cristo_2"></div>
+            <div v-html="searchAndHighlight(searchText, cauto_cristo_2)"></div>
 
-            <div v-html="guisa_1"></div>
+            <div v-html="searchAndHighlight(searchText, guisa_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/guisa.jpg">
             </div>
-            <div v-html="guisa_2"></div>
+            <div v-html="searchAndHighlight(searchText, guisa_2)"></div>
 
-            <div v-html="jiguani_1"></div>
+            <div v-html="searchAndHighlight(searchText, jiguani_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/jiguani.jpg">
             </div>
-            <div v-html="jiguani_2"></div>
+            <div v-html="searchAndHighlight(searchText, jiguani_2)"></div>
 
-            <div v-html="manzanillo_1"></div>
+            <div v-html="searchAndHighlight(searchText, manzanillo_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/manzanillo.jpg">
             </div>
-            <div v-html="manzanillo_2"></div>
+            <div v-html="searchAndHighlight(searchText, manzanillo_2)"></div>
 
-            <div v-html="media_luna_1"></div>
+            <div v-html="searchAndHighlight(searchText, media_luna_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/media_luna.jpg">
             </div>
-            <div v-html="media_luna_2"></div>
+            <div v-html="searchAndHighlight(searchText, media_luna_2)"></div>
 
-            <div v-html="niquero_1"></div>
+            <div v-html="searchAndHighlight(searchText, niquero_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/niquero.jpg">
             </div>
-            <div v-html="niquero_2"></div>
+            <div v-html="searchAndHighlight(searchText, niquero_2)"></div>
 
-            <div v-html="rio_cauto_1"></div>
+            <div v-html="searchAndHighlight(searchText, rio_cauto_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/rio_cauto.jpg">
             </div>
-            <div v-html="rio_cauto_2"></div>
+            <div v-html="searchAndHighlight(searchText, rio_cauto_2)"></div>
 
-            <div v-html="pilon_1"></div>
+            <div v-html="searchAndHighlight(searchText, pilon_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/pilon.jpg">
             </div>
-            <div v-html="pilon_2"></div>
+            <div v-html="searchAndHighlight(searchText, pilon_2)"></div>
 
-            <div v-html="yara_1"></div>
+            <div v-html="searchAndHighlight(searchText, yara_1)"></div>
             <div class="img-container">
                 <img class="img" src="~@/assets/images/pages/sitios/yara.jpg">
             </div>
-            <div v-html="yara_2"></div>
+            <div v-html="searchAndHighlight(searchText, yara_2)"></div>
         </div>
     </vue-scrollbar>
 </template>
 
 <script>
     export default {
+    props: ['searchText'],
         data(){
             return{
                 content: `<h2>Sitios arqueológicos por municipios</h2>

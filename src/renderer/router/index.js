@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import ProgressButton from 'vue-progress-button'
+
+//componentes de las paginas
 import Poblamiento from '@/components/Poblamiento'
 import UbicacionGeografica from '@/components/UbicacionGeografica'
 import Comunidades from '@/components/Comunidades'
@@ -8,10 +11,10 @@ import Galeria from '@/components/Galeria'
 import Creator from '@/components/Creator'
 import VueScrollbar from "@/components/vue-scrollbar/vue-scrollbar"
 
-/*require("vue2-scrollbar/dist/style/vue2-scrollbar.css")*/
 require("@/assets/css/app.css")
 
 Vue.component('vue-scrollbar', VueScrollbar);
+Vue.component('progress-button', ProgressButton);
 Vue.use(Router)
 
 export default new Router({
@@ -45,11 +48,6 @@ export default new Router({
       path: '/galeria',
       name: 'galeria',
       component: Galeria
-    },
-    {
-      path: '/result',
-      name: 'result',
-      component: require('@/components/SearchResult').default
     },
     {
       path: '/creator',

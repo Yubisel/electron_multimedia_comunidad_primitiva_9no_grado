@@ -1,17 +1,18 @@
 <template>
     <vue-scrollbar classes="my-scrollbar" ref="Scrollbar">
         <div class="inner-page">
-            <div v-html="content_1"></div>
+            <div v-html="searchAndHighlight(searchText, content_1)"></div>
             <div class="img-container">
             <img class="img" src="~@/assets/images/pages/ubicacion/mapa_4.jpg">
             </div>
-            <div v-html="content_2"></div>
+            <div v-html="searchAndHighlight(searchText, content_2)"></div>
         </div>
     </vue-scrollbar>
 </template>
 
 <script>
     export default {
+    props: ['searchText'],
         data(){
             return{
                 content_1: `<h2>Ubicación geográfica de la provincia de Granma. </h2>

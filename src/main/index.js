@@ -9,6 +9,7 @@ if (process.env.NODE_ENV !== 'development') {
 }
 
 let mainWindow
+let splash
 const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
@@ -44,8 +45,8 @@ app.on('ready', createWindow)
   // create main browser window
   mainWindow = new BrowserWindow({
       titleBarStyle: 'hidden',
-      width: 1920,
-      height: 1080,
+      width: 1000,
+      height: 650,
       show: false // don't show the main window
   });
   // create a new `splash`-Window 

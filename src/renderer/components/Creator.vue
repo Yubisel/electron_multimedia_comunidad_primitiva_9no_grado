@@ -15,14 +15,24 @@
 </template>
 
 <script>
-import { setTimeout } from 'timers';
+//import { setTimeout } from 'timers';
 export default {
+    data(){
+        return{
+            timer: null
+        }
+    },
     mounted: function () {
-        console.log('se monto el componente')
-        setTimeout(function(){
-            console.log('redireccionando')
-            this.$router.push('home')
-        }, 500)
+        this.timer = setTimeout(() => {
+        console.log('entro')
+        }, 2000)
+    },
+    methods:{
+        sayHi: function () {
+            console.log('entro')
+            var v = this;
+            setTimeout(() => {console.log('sssss')}, 300)
+        }
     }
 }
 </script>
