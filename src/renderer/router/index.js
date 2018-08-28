@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import vGallery from 'v-gallery'
 
 //componentes de las paginas
 import Poblamiento from '@/components/Poblamiento'
@@ -9,14 +10,19 @@ import SitiosArqueologicos from '@/components/SitiosArqueologicos'
 import Galeria from '@/components/Galeria'
 import Creator from '@/components/Creator'
 
+// global
+Vue.use(vGallery)
+
 //tomados y personalizados
 import VueScrollbar from "@/components/vue-scrollbar/vue-scrollbar"
 import ProgressButton from '@/components/vue-progress-button/ProgressButton'
+import Dropdown from '@/components/bp-vuejs-dropdown/Dropdown';
 
 require("@/assets/css/app.css")
 
 Vue.component('vue-scrollbar', VueScrollbar);
 Vue.component('progress-button', ProgressButton);
+Vue.component('bp-vuejs-dropdown', Dropdown)
 Vue.use(Router)
 
 export default new Router({

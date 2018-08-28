@@ -114,7 +114,7 @@
         data() {
             return {
                 c_menu: 0,
-                rcp_1: `<h2>Comunidades de recolectores-cazadores-pescadores reportados en la provincia de Granma</h2>
+                rcp_1: `<h2>Comunidades de recolectores-cazadores-pescadores reportadas en la provincia de Granma</h2>
                     <p>En la provincia se encuentran reportados 127 sitios arqueológicos pertenecientes a varias comunidades, situados en diferentes puntos de la geografía, generalmente próximos a zonas cenagosas, ríos, arroyos y costas. Se encuentran distribuidos de la siguiente manera por municipios: <p>
                     <ul>
                         <li>Río Cauto: 44</li>
@@ -135,7 +135,7 @@
                 rcp_2: `<p class="img-desc">Localización de los sitios arqueológicos pertenecientes a las comunidades de recolectores-cazadores-pescadores </p>
                     <p>Como se puede apreciar en el plano, la mayor concentración de estos sitios se ubica en los municipios de Río Cauto, Yara y Manzanillo, vinculados a deltas y cauces de ríos, zonas cenagosas, arroyos y al Golfo de Guacanayabo. </p>
                     <p>Estos sitios aparecen con menor frecuencia en los municipios de Campechuela, Media Luna y Niquero, que se localizan en la costa, más cercanos al Mar Caribe. En menor medida aun, estos sitios también aparecen en áreas lejanas de las zonas cenagosas y del mar, específicamente en los municipios de Cauto Cristo, Jiguaní, Guisa, Bayamo, Manzanillo, Buey Arriba y  Bartolomé Masó. </p>
-                    <p>Estos recolectores-cazadores-pescadores ubicados cerca del mar hacían un amplio uso de los moluscos marinos para su alimentación y empleaban sus conchas (caracoles) para la confección de herramientas y vasijas. Todos usaban abundantemente la piedra tallada y la piedra en volumen, en lo fundamental del sílex y de diferentes rocas. Se supone que se utilizaran también la madera y las fibras vegetales, pero estos materiales se destruyen con facilidad por las características del clima cubano y por ello su aparición en los sitios arqueológicos es escasa. </p>
+                    <p>Los recolectores-cazadores-pescadores ubicados cerca del mar hacían un amplio uso de los moluscos marinos para su alimentación y empleaban sus conchas (caracoles) para la confección de herramientas y vasijas. Todos usaban abundantemente la piedra tallada y la piedra en volumen, en lo fundamental del sílex y de diferentes rocas. Se supone que se utilizaran también la madera y las fibras vegetales, pero estos materiales se destruyen con facilidad por las características del clima cubano y por ello su aparición en los sitios arqueológicos es escasa. </p>
                     <p>Este grupo vivía en las cavernas y también en áreas despejadas, por lo que se estima que haya construido alguna vivienda rústica.  </p>
                     <h2>Piezas de las comunidades de recolectores-cazadores-pescadores obtenidas  en la provincia</h2>`,
                 ac_1: `<h2>Comunidades de agricultores-ceramistas reportados en la provincia de Granma</h2>
@@ -158,7 +158,7 @@
                     </ul>
                     <p>En el  mapa que parece a continuación se aprecia la distribución de los sitios en la provincia y los municipios. </p>`,
                 ac_2: `<p class="img-desc">Localización de los sitios arqueológicos pertenecientes a los agricultores-ceramistas en Granma</p>
-                    <p>Estas comunidades de agricultores-ceramistas hicieron uso de los recursos que la naturaleza les ofrecía para su alimentación y la confección de sus herramientas; al igual que los recolectores-cazadores-pescadores, tallan el sílex, trabajan la piedra en volumen, la madera y las fibras vegetales. Dominan la agricultura y la cerámica, lo que les permitía una vida sedentaria. Vivían en construccionesfabricadas con varas, yaguas, guano y ramas. </p>
+                    <p>Estas comunidades de agricultores-ceramistas hicieron uso de los recursos que la naturaleza les ofrecía para su alimentación y la confección de sus herramientas; al igual que los recolectores-cazadores-pescadores, tallan el sílex, trabajan la piedra en volumen, la madera y las fibras vegetales. Dominaban la agricultura y la cerámica, lo que les permitía una vida sedentaria; vivían en construcciones fabricadas con varas, yaguas, guano y ramas. </p>
                     <h2>Piezas de las comunidades de agricultores-ceramistas obtenidas en la provincia</h2>`,
             }
         }

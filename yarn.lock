@@ -1147,6 +1147,10 @@ bluebird@^3.1.1, bluebird@^3.4.7, bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
+blueimp-gallery@^2.33.0:
+  version "2.33.0"
+  resolved "https://registry.yarnpkg.com/blueimp-gallery/-/blueimp-gallery-2.33.0.tgz#f897912a1bbf65be904454d5990be6155799dd45"
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -1180,6 +1184,13 @@ bonjour@^3.5.0:
 boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+
+bp-vuejs-dropdown@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/bp-vuejs-dropdown/-/bp-vuejs-dropdown-2.1.1.tgz#bfa91943ea333ea0380029f65070cc28f0111fa1"
+  dependencies:
+    vue "^2.5.13"
+    vue-template-compiler "^2.5.13"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -6696,6 +6707,13 @@ uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
+v-gallery@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/v-gallery/-/v-gallery-1.2.4.tgz#59524c3659a8fd981a1fa7f5f1c5f623cfc6d88a"
+  dependencies:
+    blueimp-gallery "^2.33.0"
+    vue "^2.5.11"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -6776,7 +6794,7 @@ vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.4.2:
+vue-template-compiler@^2.4.2, vue-template-compiler@^2.5.13:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.17.tgz#52a4a078c327deb937482a509ae85c06f346c3cb"
   dependencies:
@@ -6794,7 +6812,7 @@ vue2-scrollbar@0.0.3:
     vue "^2.4.2"
     vue-template-compiler "^2.4.2"
 
-vue@^2.3.3, vue@^2.4.2:
+vue@^2.3.3, vue@^2.4.2, vue@^2.5.11, vue@^2.5.13:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
 

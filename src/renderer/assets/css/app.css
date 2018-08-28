@@ -5,9 +5,14 @@
     outline: none;
   }
 
+  html{
+    /*height: 100vh;*/
+  }
+
   body { 
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 14px;
+    /*height: 100vh;*/
   }
 
   #wrapper {

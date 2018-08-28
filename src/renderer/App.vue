@@ -49,7 +49,7 @@
 
 <style lang="scss">
   body { 
-    background: url("./assets/images/background.png") no-repeat;
+    background: #000000 url("./assets/images/background.png") no-repeat;
     background-size: 100% auto;  
   }
   footer{
