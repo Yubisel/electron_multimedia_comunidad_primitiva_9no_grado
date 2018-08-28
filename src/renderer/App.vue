@@ -39,7 +39,7 @@
     data(){
       return{
         searchText: '',
-        loadcomplete: true
+        loadcomplete: false
       }
     },
     components: { SystemSplash, SystemMenu, SystemSearch },
@@ -49,7 +49,8 @@
 
 <style lang="scss">
   body { 
-    background: url("./assets/images/background.png");  
+    background: url("./assets/images/background.png") no-repeat;
+    background-size: 100% auto;  
   }
   footer{
     background: url("assets/images/footer.png") no-repeat scroll 0 50%;  

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import ProgressButton from 'vue-progress-button'
 
 //componentes de las paginas
 import Poblamiento from '@/components/Poblamiento'
@@ -9,7 +8,10 @@ import Comunidades from '@/components/Comunidades'
 import SitiosArqueologicos from '@/components/SitiosArqueologicos'
 import Galeria from '@/components/Galeria'
 import Creator from '@/components/Creator'
+
+//tomados y personalizados
 import VueScrollbar from "@/components/vue-scrollbar/vue-scrollbar"
+import ProgressButton from '@/components/vue-progress-button/ProgressButton'
 
 require("@/assets/css/app.css")
 
@@ -74,7 +76,7 @@ Vue.mixin({
   },
   methods:{
     searchAndHighlight:function(str, cont){
-        if((!str) || (str.length < 3)) {
+      if((!str) || (str.length < 3)) {
           return cont;
       }
       if (str === '@utor'){

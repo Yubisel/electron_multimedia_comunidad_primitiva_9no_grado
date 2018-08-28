@@ -15,7 +15,6 @@
 </template>
 
 <script>
-//import { setTimeout } from 'timers';
 export default {
     data(){
         return{
@@ -28,11 +27,6 @@ export default {
         }, 2000)
     },
     methods:{
-        sayHi: function () {
-            console.log('entro')
-            var v = this;
-            setTimeout(() => {console.log('sssss')}, 300)
-        }
     }
 }
 </script>
