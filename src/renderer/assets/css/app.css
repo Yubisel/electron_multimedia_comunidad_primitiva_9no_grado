@@ -202,18 +202,35 @@
 }
 
 .v-gallery .light-gallery a .image-container img {
-  height: 160px;
+  max-height: 160px;
+  max-width: 100%;
   width: auto !important;
   margin: 0 auto;
 }
 
 .v-gallery .light-gallery a .image-container {
-    display: inline-table !important;
+    display: flex !important;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     background-color: #424242 !important;
     width: 100%;
     text-align: center;
+    height: 160px !important;
 }
 
+.blueimp-gallery>.slides>.slide>.slide-content {
+  max-height: calc(100% - 120px) !important;
+}
+@media (max-width: 1024px){
+  .v-gallery .light-gallery a .image-container img {
+    max-height: 100px;
+  }
+  
+  .v-gallery .light-gallery a .image-container {
+      height: 100px !important;
+  }
+}
 /*------------------------------------- dropdown menu  style -----------------------------------------*/
 .my-dropdown-bp__btn svg{
   display: none;
@@ -253,5 +270,5 @@ font-size: inherit;
 
 .my-dropdown-bp__body ul > li a:hover{
   background: #303030;
-    color: #ffffff;
+    color: #DB3000;
 }
