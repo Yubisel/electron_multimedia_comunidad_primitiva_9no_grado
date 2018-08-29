@@ -7,7 +7,11 @@ import Poblamiento from '@/components/Poblamiento'
 import UbicacionGeografica from '@/components/UbicacionGeografica'
 import Comunidades from '@/components/Comunidades'
 import SitiosArqueologicos from '@/components/SitiosArqueologicos'
-import Galeria from '@/components/Galeria'
+import Galeria from '@/components/Galeria/Galeria'
+import GaleriaIdolos from '@/components/Galeria/GaleriaIdolos'
+import GaleriaMartinez from '@/components/Galeria/GaleriaMartinez'
+import GaleriaOtton from '@/components/Galeria/GaleriaOtton'
+import GaleriaSitios from '@/components/Galeria/GaleriaSitios'
 import Creator from '@/components/Creator'
 
 // global
@@ -55,7 +59,27 @@ export default new Router({
     {
       path: '/galeria',
       name: 'galeria',
-      component: Galeria
+      component: Galeria,
+    },
+    {
+      path: '/galeria-idolos',
+      name: 'galeria-idolos',
+      component: GaleriaIdolos
+    },
+    {
+      path: '/galeria-martinez',
+      name: 'galeria-martinez',
+      component: GaleriaMartinez
+    },
+    {
+      path: '/galeria-otton',
+      name: 'galeria-otton',
+      component: GaleriaOtton
+    },
+    {
+      path: '/galeria-sitios',
+      name: 'galeria-sitios',
+      component: GaleriaSitios
     },
     {
       path: '/creator',

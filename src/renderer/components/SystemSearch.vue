@@ -1,11 +1,11 @@
 <template>
     <div class="search-container">
         <ul class="top_icons">
-            <li>
+            <!--li>
         <a href="#">
             <img src="~@/assets/images/icons/icon_unk.png">
         </a>
-            </li>
+            </li-->
             <li>
         <bp-vuejs-dropdown :class-name="'my-dropdown'" :unscroll="'main'">
             <template slot="body">
