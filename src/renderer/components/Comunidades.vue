@@ -14,8 +14,8 @@
                     <img class="img" src="~@/assets/images/pages/comunidades/mapa_5.jpg">
                 </div>
                 <div v-html="searchAndHighlight(searchText, rcp_2)"></div>
-
-                <div class="img-container">
+                <v-gallery :images="rcp_gallery" :dark="true" :caption="false" ></v-gallery>
+                <!--div class="img-container">
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_1.jpg">
                     <p class="img-desc">Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_2.jpg">
@@ -54,7 +54,7 @@
                     <p class="img-desc">Cuchillo de silex. Canal, municipio de Rio Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_19.jpg">
                     <p class="img-desc">Herramientas de silex. Canal, municipio de Rio Cauto</p>
-                </div>
+                </div-->
 
             </div>
             <div :class="{'hidden' : c_menu!=1 }">
@@ -63,8 +63,8 @@
                     <img class="img" src="~@/assets/images/pages/comunidades/mapa_6.jpg">
                 </div>
                 <div v-html="searchAndHighlight(searchText, ac_2)"></div>
-
-                <div class="img-container">
+                <v-gallery :images="ac_gallery" :dark="true" :caption="false" ></v-gallery>
+                <!--div class="img-container">
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_20.jpg">
                     <p class="img-desc">Vasija. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_21.jpg">
@@ -101,7 +101,7 @@
                     <p class="img-desc"> Idolo del Agua, iluminado por el sol, el 23 de diciembre de 2013</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_37.jpg">
                     <p class="img-desc"> Idolo de Bayamo, Valenzuela, Bayamo</p>
-                </div>
+                </div-->
 
             </div>
         </div>
@@ -138,6 +138,27 @@
                     <p>Los recolectores-cazadores-pescadores ubicados cerca del mar hacían un amplio uso de los moluscos marinos para su alimentación y empleaban sus conchas (caracoles) para la confección de herramientas y vasijas. Todos usaban abundantemente la piedra tallada y la piedra en volumen, en lo fundamental del sílex y de diferentes rocas. Se supone que se utilizaran también la madera y las fibras vegetales, pero estos materiales se destruyen con facilidad por las características del clima cubano y por ello su aparición en los sitios arqueológicos es escasa. </p>
                     <p>Este grupo vivía en las cavernas y también en áreas despejadas, por lo que se estima que haya construido alguna vivienda rústica.  </p>
                     <h2>Piezas de las comunidades de recolectores-cazadores-pescadores obtenidas  en la provincia</h2>`,
+                rcp_gallery: [
+                    {title:'Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara',url:'static/images/pages/comunidades/foto_1.jpg'},
+                    {title:'Pieza confeccionada en piedra de probable uso ritual. El Veinticinco, municipio de Yara',url:'static/images/pages/comunidades/foto_2.jpg'},
+                    {title:'Martillo hecho a partir de la concha del cobo. Guamito, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_3.jpg'},
+                    {title:'Collar confeccionado con vertebras modificadas de pescados y diente de tiburon. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_4.jpg'},
+                    {title:'Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_5.jpg'},
+                    {title:'Gubia y raspador.  Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_6.jpg'},
+                    {title:'Esfera de piedra. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_7.jpg'},
+                    {title:'Esfera de piedra perforada.  Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_8.jpg'},
+                    {title:'Percutor. Guamito, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_9.jpg'},
+                    {title:'Percutor. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_10.jpg'},
+                    {title:'Pendiente acodado. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_11.jpg'},
+                    {title:'Pendiente decorado. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_12.jpg'},
+                    {title:'Mortero.  Valenzuela, Bayamo',url:'static/images/pages/comunidades/foto_13.jpg'},
+                    {title:'Mortero. Rio Salado, Bayamo',url:'static/images/pages/comunidades/foto_14.jpg'},
+                    {title:'Puntas confeccionadas en conchas. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_15.jpg'},
+                    {title:'Resto de dieta, concha de cobo. Municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_16.jpg'},
+                    {title:'Sumergidor de redes. Canal, Rio Cauto',url:'static/images/pages/comunidades/foto_17.jpg'},
+                    {title:'Cuchillo de silex. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_18.jpg'},
+                    {title:'Herramientas de silex. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_19.jpg'},
+                ],
                 ac_1: `<h2>Comunidades de agricultores-ceramistas reportados en la provincia de Granma</h2>
                     <p>En los territorios de la provinciade Granma se han reportado 73 sitios arqueológicos pertenecientes a estas comunidades que en ocasiones se localizan de forma concentrada; también se han encontrado otros sitios más dispersos y aislados. La mayor concentración se encuentra en Cabo Cruz y El Guafe, municipio de Niquero, destacando en ellos su alto nivel de elaboración de la cerámica, con decoraciones en sus vasijas y diversidad de tipos de asas; en las cuevas existen manifestaciones de arte rupestre, con ídolos tallados y pictografías. </p>
                     <p>Se ubican 14 sitios muy próximos al Mar Caribe y al Golfo de Guacanayabo, en un área de suelos fértiles. La otra concentración, de menor magnitud, se puede observar en el municipio de Bayamo, en las márgenes del río de ese propio nombre. En los restantes municipios se presentan de forma aislada, siempre próximos a ríos, a arroyos y sobre suelos aptos para la agricultura. Su distribución por municipios es la siguiente: </p>
@@ -160,6 +181,26 @@
                 ac_2: `<p class="img-desc">Localización de los sitios arqueológicos pertenecientes a los agricultores-ceramistas en Granma</p>
                     <p>Estas comunidades de agricultores-ceramistas hicieron uso de los recursos que la naturaleza les ofrecía para su alimentación y la confección de sus herramientas; al igual que los recolectores-cazadores-pescadores, tallan el sílex, trabajan la piedra en volumen, la madera y las fibras vegetales. Dominaban la agricultura y la cerámica, lo que les permitía una vida sedentaria; vivían en construcciones fabricadas con varas, yaguas, guano y ramas. </p>
                     <h2>Piezas de las comunidades de agricultores-ceramistas obtenidas en la provincia</h2>`,
+                ac_gallery: [
+                    {title:'Vasija. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_20.jpg'},
+                    {title:'Asa. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_21.jpg'},
+                    {title:'Asas. Ocuje, municipio de Pilon',url:'static/images/pages/comunidades/foto_22.jpg'},
+                    {title:'Hacha de uso ceremonial. Pilon, municipio de Pilon',url:'static/images/pages/comunidades/foto_23.jpg'},
+                    {title:'Fragmentos de ceramica decorada. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_24.jpg'},
+                    {title:'Asas. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_25.jpg'},
+                    {title:'Asas. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_26.jpg'},
+                    {title:'Hacha petaloide. Bayamo, municipio de Bayamo',url:'static/images/pages/comunidades/foto_27.jpg'},
+                    {title:'Raspadores confeccionados en concha. Ocuje, municipio de Pilon',url:'static/images/pages/comunidades/foto_28.jpg'},
+                    {title:'Fragmentos de burenes. Sitios Ocuje, en Pilon y sitios Belic y El Guafe, en Niquero',url:'static/images/pages/comunidades/foto_29.jpg'},
+                    {title:'A. Montaje museografico de un buren',url:'static/images/pages/comunidades/foto_30.jpg'},
+                    {title:'Replica de remo. Gabinete de Arqueologia, Bayamo',url:'static/images/pages/comunidades/foto_31.jpg'},
+                    {title:'Idolo tallado en una cueva de El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_32.jpg'},
+                    {title:'Idolo tallado en una cueva de El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_33.jpg'},
+                    {title:'Idolo tallado en una cueva de El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_34.jpg'},
+                    {title:'Idolo del Agua, tallado en una cueva de El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_35.jpg'},
+                    {title:'Idolo del Agua, iluminado por el sol, el 23 de diciembre de 2013',url:'static/images/pages/comunidades/foto_36.jpg'},
+                    {title:'Idolo de Bayamo, Valenzuela, Bayamo',url:'static/images/pages/comunidades/foto_37.jpg'},
+                ],
             }
         }
     }
