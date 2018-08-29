@@ -39,7 +39,7 @@
     data(){
       return{
         searchText: '',
-        loadcomplete: false
+        loadcomplete: true
       }
     },
     components: { SystemSplash, SystemMenu, SystemSearch },

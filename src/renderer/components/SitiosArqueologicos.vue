@@ -85,8 +85,6 @@
 
 <script>
     export default {
-        //ToDo recolectores-cazadores-pescadores verdes
-        //ToDo agricultores-ceramistas rojos
     props: ['searchText'],
         data(){
             return{

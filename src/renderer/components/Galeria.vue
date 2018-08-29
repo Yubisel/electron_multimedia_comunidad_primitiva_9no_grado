@@ -14,6 +14,7 @@
                     <div class="img-title" v-html="img.title"></div>
                 </a>
             </v-gallery>
+            <v-gallery :images="list2" :dark="true" :caption="true" ></v-gallery>
         </div>
     </vue-scrollbar>
 </template>
@@ -28,11 +29,12 @@ export default{
                     {title:'Image2',url:'static/mapa_2.jpg'},
                     {title:'Image2',url:'static/mapa_3.jpg'},
                     {title:'Image1',url:'static/mapa_1.jpg'},
-                    {title:'Image2',url:'static/mapa_2.jpg'},
-                    {title:'Image2',url:'static/mapa_3.jpg'},
+                ],
+                list2: [
                     {title:'Image1',url:'static/mapa_1.jpg'},
                     {title:'Image2',url:'static/mapa_2.jpg'},
                     {title:'Image2',url:'static/mapa_3.jpg'},
+                    {title:'Image1',url:'static/mapa_1.jpg'},
                 ]
             }
         }

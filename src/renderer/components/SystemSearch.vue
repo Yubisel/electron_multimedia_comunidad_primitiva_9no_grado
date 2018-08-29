@@ -1,16 +1,30 @@
 <template>
     <div class="search-container">
+        <ul class="top_icons">
+            <li>
         <a href="#">
             <img src="~@/assets/images/icons/icon_unk.png">
         </a>
-        <bp-vuejs-dropdown :class-name="'my-class'" :unscroll="'main'">
-            <template slot="body">Lorem...</template>
+            </li>
+            <li>
+        <bp-vuejs-dropdown :class-name="'my-dropdown'" :unscroll="'main'">
+            <template slot="body">
+                <ul>
+                <li><a href="#">Pagina de contenido</a></li>
+                <li><a href="#">Pagina de contenido</a></li>
+                <li><a href="#">Pagina de contenido</a></li>
+                <li><a href="#">Pagina de contenido</a></li>
+                </ul>
+            </template>
         </bp-vuejs-dropdown>
+            </li>
         <!--a href="#">
             <img src="~@/assets/images/icons/icon_help.png">
         </a-->
+        <li>
         <input placeholder="Buscar" v-bind:value="searchText"  v-on:input="$emit('input', $event.target.value)">
-
+        </li>
+        </ul>
 
     </div>
 </template>
@@ -28,12 +42,15 @@
 
 <style scoped>
     .search-container{
+        display: flex;
+    }
+    .search-container ul.top_icons{
         float: right;
         display: flex;
         margin-top: auto;
         margin-right: 55px;
     }
-    a{
+    ul.top_icons > li{
         display: inline-block;
         margin: 0 5px;
     }
@@ -46,18 +63,9 @@
         padding-right: 32px;
         color: #ffffff;
     }
-
-    .my-class-bp__btn {
-    background: lightgray;
-    }
-
-    .my-class-bp__btn--active {
-    background: #fff;
-    }
-
-    .my-class-bp__body {
-    width: 20rem; 
-    padding: 2rem; 
-    font-size: 1.6rem;
-    }
+</style>
+<style>
+.my-dropdown-bp__btn, .my-dropdown-bp__btn--active {
+  background: transparent url('../assets/images/icons/icon_dropdown.png') no-repeat scroll 100% 50% !important;
+}
 </style>
