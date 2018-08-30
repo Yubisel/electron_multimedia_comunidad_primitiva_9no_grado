@@ -17,43 +17,43 @@
                 <v-gallery :images="rcp_gallery" :dark="true" :caption="false" ></v-gallery>
                 <!--div class="img-container">
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_1.jpg">
-                    <p class="img-desc">Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara</p>
+                    <p class="cp9g">Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_2.jpg">
-                    <p class="img-desc">Pieza confeccionada en piedra de probable uso ritual. El Veinticinco, municipio de Yara</p>
+                    <p class="cp9g">Pieza confeccionada en piedra de probable uso ritual. El Veinticinco, municipio de Yara</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_3.jpg">
-                    <p class="img-desc">Martillo hecho a partir de la concha del cobo. Guamito, municipio de Rio Cauto</p>
+                    <p class="cp9g">Martillo hecho a partir de la concha del cobo. Guamito, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_4.jpg">
-                    <p class="img-desc">Collar confeccionado con vertebras modificadas de pescados y diente de tiburon. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Collar confeccionado con vertebras modificadas de pescados y diente de tiburon. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_5.jpg">
-                    <p class="img-desc">Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_6.jpg">
-                    <p class="img-desc">Gubia y raspador.  Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Gubia y raspador.  Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_7.jpg">
-                    <p class="img-desc">Esfera de piedra. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Esfera de piedra. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_8.jpg">
-                    <p class="img-desc">Esfera de piedra perforada.  Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Esfera de piedra perforada.  Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_9.jpg">
-                    <p class="img-desc">Percutor. Guamito, municipio de Rio Cauto</p>
+                    <p class="cp9g">Percutor. Guamito, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_10.jpg">
-                    <p class="img-desc">Percutor. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Percutor. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_11.jpg">
-                    <p class="img-desc">Pendiente acodado. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Pendiente acodado. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_12.jpg">
-                    <p class="img-desc">Pendiente decorado. Playa de El Mango, municipio de Rio Cauto</p>
+                    <p class="cp9g">Pendiente decorado. Playa de El Mango, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_13.jpg">
-                    <p class="img-desc">Mortero.  Valenzuela, Bayamo</p>
+                    <p class="cp9g">Mortero.  Valenzuela, Bayamo</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_14.jpg">
-                    <p class="img-desc">Mortero. Rio Salado, Bayamo</p>
+                    <p class="cp9g">Mortero. Río Salado, Bayamo</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_15.jpg">
-                    <p class="img-desc">Puntas confeccionadas en conchas. Canal, municipio de Rio Cauto</p>
+                    <p class="cp9g">Puntas confeccionadas en conchas. Canal, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_16.jpg">
-                    <p class="img-desc">Resto de dieta, concha de cobo. Municipio de Rio Cauto</p>
+                    <p class="cp9g">Resto de dieta, concha de cobo. Municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_17.jpg">
-                    <p class="img-desc">Sumergidor de redes. Canal, Rio Cauto</p>
+                    <p class="cp9g">Sumergidor de redes. Canal, Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_18.jpg">
-                    <p class="img-desc">Cuchillo de silex. Canal, municipio de Rio Cauto</p>
+                    <p class="cp9g">Cuchillo de sílex. Canal, municipio de Río Cauto</p>
                     <img class="img" src="~@/assets/images/pages/comunidades/foto_19.jpg">
-                    <p class="img-desc">Herramientas de silex. Canal, municipio de Rio Cauto</p>
+                    <p class="cp9g">Herramientas de sílex. Canal, municipio de Río Cauto</p>
                 </div-->
 
             </div>
@@ -66,41 +66,41 @@
                 <v-gallery :images="ac_gallery" :dark="true" :caption="false" ></v-gallery>
                 <!--div class="img-container">
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_20.jpg">
-                    <p class="img-desc">Vasija. El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Vasija. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_21.jpg">
-                    <p class="img-desc"> Asa. El Guafe, municipio de Niquero</p>
+                    <p class="cp9g"> Asa. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_22.jpg">
-                    <p class="img-desc">Asas. Ocuje, municipio de Pilon</p>
+                    <p class="cp9g">Asas. Ocuje, municipio de Pilon</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_23.jpg">
-                    <p class="img-desc">Hacha de uso ceremonial. Pilon, municipio de Pilon</p>
+                    <p class="cp9g">Hacha de uso ceremonial. Pilon, municipio de Pilon</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_24.jpg">
-                    <p class="img-desc">Fragmentos de ceramica decorada. El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Fragmentos de ceramica decorada. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_25.jpg">
-                    <p class="img-desc">Asas. El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Asas. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_26.jpg">
-                    <p class="img-desc">Asas. El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Asas. El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_27.jpg">
-                    <p class="img-desc">Hacha petaloide. Bayamo, municipio de Bayamo</p>
+                    <p class="cp9g">Hacha petaloide. Bayamo, municipio de Bayamo</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_28.jpg">
-                    <p class="img-desc">Raspadores confeccionados en concha. Ocuje, municipio de Pilon</p>
+                    <p class="cp9g">Raspadores confeccionados en concha. Ocuje, municipio de Pilon</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_29.jpg">
-                    <p class="img-desc">Fragmentos de burenes. Sitios Ocuje, en Pilon y sitios Belic y El Guafe, en Niquero</p>
+                    <p class="cp9g">Fragmentos de burenes. Sitios Ocuje, en Pilon y sitios Belic y El Guafe, en Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_30.jpg">
-                    <p class="img-desc">A. Montaje museografico de un buren</p>
+                    <p class="cp9g">A. Montaje museografico de un buren</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_31.jpg">
-                    <p class="img-desc"> Replica de remo. Gabinete de Arqueologia, Bayamo</p>
+                    <p class="cp9g"> Replica de remo. Gabinete de Arqueologia, Bayamo</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_32.jpg">
-                    <p class="img-desc">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_33.jpg">
-                    <p class="img-desc">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_34.jpg">
-                    <p class="img-desc">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
+                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_35.jpg"> 
-                    <p class="img-desc"> Idolo del Agua, tallado en una cueva de El Guafe, municipio de Niquero</p>
+                    <p class="cp9g"> Idolo del Agua, tallado en una cueva de El Guafe, municipio de Niquero</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_36.jpg">
-                    <p class="img-desc"> Idolo del Agua, iluminado por el sol, el 23 de diciembre de 2013</p>
+                    <p class="cp9g"> Idolo del Agua, iluminado por el sol, el 23 de diciembre de 2013</p>
                     <img class="img"  src="~@/assets/images/pages/comunidades/foto_37.jpg">
-                    <p class="img-desc"> Idolo de Bayamo, Valenzuela, Bayamo</p>
+                    <p class="cp9g"> Idolo de Bayamo, Valenzuela, Bayamo</p>
                 </div-->
 
             </div>
@@ -115,7 +115,7 @@
             return {
                 c_menu: 0,
                 rcp_1: `<h2>Comunidades de recolectores-cazadores-pescadores reportadas en la provincia de Granma</h2>
-                    <p>En la provincia se encuentran reportados 127 sitios arqueológicos pertenecientes a varias comunidades, situados en diferentes puntos de la geografía, generalmente próximos a zonas cenagosas, ríos, arroyos y costas. Se encuentran distribuidos de la siguiente manera por municipios: <p>
+                    <p>En la provincia se encuentran reportados 127 sitios arqueológicos pertenecientes a estas comunidades, en diferentes puntos de la geografía, generalmente próximos a zonas cenagosas, ríos, arroyos y las costas. Los mismos están distribuidos de la siguiente manera por municipios:</p>
                     <ul>
                         <li>Río Cauto: 44</li>
                         <li>Cauto Cristo: 7</li>
@@ -131,37 +131,35 @@
                         <li>Niquero: 22</li>
                         <li>Pilón: 1</li>
                     </ul>
-                    <p>En el siguiente mapa se aprecia la distribución de los sitios en la provincia y los municipios. </p>`,
-                rcp_2: `<p class="img-desc">Localización de los sitios arqueológicos pertenecientes a las comunidades de recolectores-cazadores-pescadores </p>
-                    <p>Como se puede apreciar en el plano, la mayor concentración de estos sitios se ubica en los municipios de Río Cauto, Yara y Manzanillo, vinculados a deltas y cauces de ríos, zonas cenagosas, arroyos y al Golfo de Guacanayabo. </p>
-                    <p>Estos sitios aparecen con menor frecuencia en los municipios de Campechuela, Media Luna y Niquero, que se localizan en la costa, más cercanos al Mar Caribe. En menor medida aun, estos sitios también aparecen en áreas lejanas de las zonas cenagosas y del mar, específicamente en los municipios de Cauto Cristo, Jiguaní, Guisa, Bayamo, Manzanillo, Buey Arriba y  Bartolomé Masó. </p>
-                    <p>Los recolectores-cazadores-pescadores ubicados cerca del mar hacían un amplio uso de los moluscos marinos para su alimentación y empleaban sus conchas (caracoles) para la confección de herramientas y vasijas. Todos usaban abundantemente la piedra tallada y la piedra en volumen, en lo fundamental del sílex y de diferentes rocas. Se supone que se utilizaran también la madera y las fibras vegetales, pero estos materiales se destruyen con facilidad por las características del clima cubano y por ello su aparición en los sitios arqueológicos es escasa. </p>
-                    <p>Este grupo vivía en las cavernas y también en áreas despejadas, por lo que se estima que haya construido alguna vivienda rústica.  </p>
+                    <p>En el siguiente plano se aprecia la distribución de los sitios en la provincia y los municipios. </p>`,
+                rcp_2: `<p class="cp9g">Localización de los sitios arqueológicos pertenecientes a las comunidades de recolectores-cazadores-pescadores </p>
+                    <p>Como se puede apreciar en el plano, la mayor concentración de estos sitios se encuentra situada en el oeste del municipio de Río Cauto, el norte y oeste de Yara y el norte de Manzanillo, vinculados a deltas y cauces de ríos, zonas cenagosas y arroyos. Se presentan con menos frecuencia, en los municipios de Campechuela, Media Luna, Niquero y Pilón. Aun menor medida aparecen en áreas lejanas de las zonas cenagosas y del mar, específicamente en los municipios de Cauto Cristo, Jiguaní, Guisa, Bayamo, Manzanillo, Buey Arriba, Bartolomé Masó, Campechuela, Media Luna y Niquero.</p>
+                    <p>Estos recolectores-cazadores-pescadores, ubicados cerca del mar, hacían un gran uso de los moluscos marinos para su alimentación y emplean sus conchas (caracoles) para la confección de herramientas y vasijas. Todos empleanla piedra tallada, a partir, en lo fundamental, del sílex, la piedra en volumen de diferentes rocas y los cantos rodados. Es lógico que utilizaran la madera y las fibras vegetales, pero por las características de nuestro clima, se descomponen con facilidad y su aparición en los sitios arqueológicos es escasa. Estas comunidades vivían en las cavernas y también en áreas despejadas, por lo que deben haber construido alguna vivienda rústica. </p>
                     <h2>Piezas de las comunidades de recolectores-cazadores-pescadores obtenidas  en la provincia</h2>`,
                 rcp_gallery: [
                     {title:'Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara',url:'static/images/pages/comunidades/foto_1.jpg'},
                     {title:'Pieza confeccionada en piedra de probable uso ritual. El Veinticinco, municipio de Yara',url:'static/images/pages/comunidades/foto_2.jpg'},
-                    {title:'Martillo hecho a partir de la concha del cobo. Guamito, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_3.jpg'},
-                    {title:'Collar confeccionado con vertebras modificadas de pescados y diente de tiburon. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_4.jpg'},
-                    {title:'Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_5.jpg'},
-                    {title:'Gubia y raspador.  Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_6.jpg'},
-                    {title:'Esfera de piedra. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_7.jpg'},
-                    {title:'Esfera de piedra perforada.  Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_8.jpg'},
-                    {title:'Percutor. Guamito, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_9.jpg'},
-                    {title:'Percutor. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_10.jpg'},
-                    {title:'Pendiente acodado. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_11.jpg'},
-                    {title:'Pendiente decorado. Playa de El Mango, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_12.jpg'},
+                    {title:'Martillo elaborado a partir de la concha del cobo. Guamito, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_3.jpg'},
+                    {title:'Collar confeccionado con vertebras modificadas de pescados y diente de tiburón. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_4.jpg'},
+                    {title:'Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_5.jpg'},
+                    {title:'Gubia y raspador.  Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_6.jpg'},
+                    {title:'Esfera de piedra. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_7.jpg'},
+                    {title:'Esfera de piedra perforada.  Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_8.jpg'},
+                    {title:'Percutor. Guamito, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_9.jpg'},
+                    {title:'Percutor. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_10.jpg'},
+                    {title:'Pendiente acodado. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_11.jpg'},
+                    {title:'Pendiente decorado. Playa de El Mango, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_12.jpg'},
                     {title:'Mortero.  Valenzuela, Bayamo',url:'static/images/pages/comunidades/foto_13.jpg'},
-                    {title:'Mortero. Rio Salado, Bayamo',url:'static/images/pages/comunidades/foto_14.jpg'},
-                    {title:'Puntas confeccionadas en conchas. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_15.jpg'},
-                    {title:'Resto de dieta, concha de cobo. Municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_16.jpg'},
-                    {title:'Sumergidor de redes. Canal, Rio Cauto',url:'static/images/pages/comunidades/foto_17.jpg'},
-                    {title:'Cuchillo de silex. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_18.jpg'},
-                    {title:'Herramientas de silex. Canal, municipio de Rio Cauto',url:'static/images/pages/comunidades/foto_19.jpg'},
+                    {title:'Mortero. Río Salado, Bayamo',url:'static/images/pages/comunidades/foto_14.jpg'},
+                    {title:'Puntas confeccionadas en conchas. Canal, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_15.jpg'},
+                    {title:'Resto de dieta, concha de cobo. Municipio de Río Cauto',url:'static/images/pages/comunidades/foto_16.jpg'},
+                    {title:'Sumergidor de redes. Canal, Río Cauto',url:'static/images/pages/comunidades/foto_17.jpg'},
+                    {title:'Cuchillo de sílex. Canal, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_18.jpg'},
+                    {title:'Herramientas de sílex. Canal, municipio de Río Cauto',url:'static/images/pages/comunidades/foto_19.jpg'},
                 ],
                 ac_1: `<h2>Comunidades de agricultores-ceramistas reportados en la provincia de Granma</h2>
-                    <p>En los territorios de la provinciade Granma se han reportado 73 sitios arqueológicos pertenecientes a estas comunidades que en ocasiones se localizan de forma concentrada; también se han encontrado otros sitios más dispersos y aislados. La mayor concentración se encuentra en Cabo Cruz y El Guafe, municipio de Niquero, destacando en ellos su alto nivel de elaboración de la cerámica, con decoraciones en sus vasijas y diversidad de tipos de asas; en las cuevas existen manifestaciones de arte rupestre, con ídolos tallados y pictografías. </p>
-                    <p>Se ubican 14 sitios muy próximos al Mar Caribe y al Golfo de Guacanayabo, en un área de suelos fértiles. La otra concentración, de menor magnitud, se puede observar en el municipio de Bayamo, en las márgenes del río de ese propio nombre. En los restantes municipios se presentan de forma aislada, siempre próximos a ríos, a arroyos y sobre suelos aptos para la agricultura. Su distribución por municipios es la siguiente: </p>
+                    <p>En los territorios de la provincia se han reportado 73 sitios arqueológicos pertenecientes a estas comunidades, algunos dispersos en la región y otros de forma aislada; la mayor concentración se localiza en Cabo Cruz y El Guafe, municipio de Niquero, destacándose estos por el alto nivel de elaboración de la cerámica, con decoraciones en sus vasijas y diversidad de tipos de asas; también en las cuevas existen manifestaciones de arte rupestre, con ídolos tallados, donde se ubican 14 sitios, muy próximos al Mar Caribe y al Golfo de Guacanayabo; es una región cársica de suelos fértiles. <p>
+                    <p>Otro grupo de menor magnitud se encuentra situado en las márgenes del río Bayamo. En los restantes municipios se presentan de forma aislada, siempre próximos a ríos o arroyos y sobre suelos aptos para la agricultura. Su distribución es la siguiente: </p>
                     <ul>
                         <li>Río Cauto: 0</li>
                         <li>Cauto Cristo: 4</li>
@@ -178,9 +176,9 @@
                         <li>Pilón: 3</li>
                     </ul>
                     <p>En el  mapa que parece a continuación se aprecia la distribución de los sitios en la provincia y los municipios. </p>`,
-                ac_2: `<p class="img-desc">Localización de los sitios arqueológicos pertenecientes a los agricultores-ceramistas en Granma</p>
-                    <p>Estas comunidades de agricultores-ceramistas hicieron uso de los recursos que la naturaleza les ofrecía para su alimentación y la confección de sus herramientas; al igual que los recolectores-cazadores-pescadores, tallan el sílex, trabajan la piedra en volumen, la madera y las fibras vegetales. Dominaban la agricultura y la cerámica, lo que les permitía una vida sedentaria; vivían en construcciones fabricadas con varas, yaguas, guano y ramas. </p>
-                    <h2>Piezas de las comunidades de agricultores-ceramistas obtenidas en la provincia</h2>`,
+                ac_2: `<p class="cp9g">Localización de los sitios arqueológicos pertenecientes a los agricultores-ceramistas</p>
+                    <p>Estas comunidades de agricultores-ceramistas usaron los recursos que la naturaleza les ofrecía para su alimentación y la confección de sus herramientas. Al igual que los recolectores-cazadores-pescadores, tallaban elsílex, trabajan la piedra en volumen, la madera y las fibras vegetales. Dominaban también la agricultura y la cerámica, lo que les permitía una vida más sedentaria; vivían en construcciones hechas de madera, guano y diferentes fibras vegetales. <p>
+                    <h2>Piezas de las comunidades de agricultores-ceramistas obtenidas en los trabajos de investigación arqueológica en la provincia/h2>`,
                 ac_gallery: [
                     {title:'Vasija. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_20.jpg'},
                     {title:'Asa. El Guafe, municipio de Niquero',url:'static/images/pages/comunidades/foto_21.jpg'},

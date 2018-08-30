@@ -12,6 +12,10 @@ import GaleriaIdolos from '@/components/Galeria/GaleriaIdolos'
 import GaleriaMartinez from '@/components/Galeria/GaleriaMartinez'
 import GaleriaOtton from '@/components/Galeria/GaleriaOtton'
 import GaleriaSitios from '@/components/Galeria/GaleriaSitios'
+import Glosario from '@/components/Glosario'
+import BibliografiaNotas from '@/components/BibliografiaNotas'
+import CreditosAgradecimientos from '@/components/CreditosAgradecimientos'
+import Recomendaciones from '@/components/Recomendaciones'
 import Creator from '@/components/Creator'
 
 // global
@@ -82,6 +86,26 @@ export default new Router({
       component: GaleriaSitios
     },
     {
+      path: '/glosario',
+      name: 'glosario',
+      component: Glosario
+    },
+    {
+      path: '/bibliografia-notas',
+      name: 'bibliografia-notas',
+      component: BibliografiaNotas
+    },
+    {
+      path: '/creditos-agradecimientos',
+      name: 'creditos-agradecimientos',
+      component: CreditosAgradecimientos
+    },
+    {
+      path: '/recomendaciones',
+      name: 'recomendaciones',
+      component: Recomendaciones
+    },
+    {
       path: '/creator',
       name: 'creator',
       component: Creator
@@ -100,7 +124,6 @@ Vue.mixin({
     return {
 
     }
-    //notSearcheable: ['<p>', '</p', '</p>', '<h1>', '</h1>']
   },
   created: function () {
   },
@@ -112,12 +135,22 @@ Vue.mixin({
       if (str === '@utor'){
         this.$router.push('creator')
       }
+      if (this.filterSearchText(str)){
+        return cont;
+      }
       return cont.replace(new RegExp(str, "gi"), match => {
           return '<span class="highlightText">' + match + '</span>';
       });
     },
     filterSearchText: function(str){
-
+      let unsercheableWords = ['<', '>', '/', '<p>', '<li>', '<h2>', '<ul>', '_', 'cp9g']
+      let s = false
+      unsercheableWords.forEach(function(element){
+        if ((str.indexOf(element) != -1) || (element.indexOf(str) != -1)){
+          s = true;
+        }
+      })
+      return s;
     }
   }
 })

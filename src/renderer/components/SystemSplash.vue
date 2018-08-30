@@ -5,7 +5,7 @@
             <img class="name-background" src="~@/assets/images/pages/splash/splash_name_background.png">
             <img class="splash-logo" src="~@/assets/images/pages/splash/splash_center_name.png">
         </div>
-        <progress-button fill-color="#E21F00" v-on:click="$emit('loaded')">Entrar</progress-button>
+        <progress-button fill-color="#e4a600" v-on:click="$emit('loaded')">Entrar</progress-button>
     </div>
 </template>
 <script>

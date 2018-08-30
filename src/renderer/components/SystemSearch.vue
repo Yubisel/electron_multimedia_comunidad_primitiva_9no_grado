@@ -10,10 +10,10 @@
         <bp-vuejs-dropdown :class-name="'my-dropdown'" :unscroll="'main'">
             <template slot="body">
                 <ul>
-                <li><a href="#">Pagina de contenido</a></li>
-                <li><a href="#">Pagina de contenido</a></li>
-                <li><a href="#">Pagina de contenido</a></li>
-                <li><a href="#">Pagina de contenido</a></li>
+                <li><router-link :to="{ name: 'glosario' }">Glosario</router-link></li>
+                <li><router-link :to="{ name: 'bibliografia-notas' }">Bibliografía y Notas</router-link></li>
+                <li><router-link :to="{ name: 'creditos-agradecimientos' }">Créditos y Agradecimientos</router-link></li>
+                <li><router-link :to="{ name: 'recomendaciones' }">Recomendaciones Protección Residuarios</router-link></li>
                 </ul>
             </template>
         </bp-vuejs-dropdown>
