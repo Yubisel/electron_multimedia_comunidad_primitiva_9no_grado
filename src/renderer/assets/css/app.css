@@ -82,6 +82,7 @@
   .inner-page h3{
     overflow: auto;
     color: #8E4B02;
+    margin-bottom: 10px;
   }
   .inner-page ul{
     list-style: none;
