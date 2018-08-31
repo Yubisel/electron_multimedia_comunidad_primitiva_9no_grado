@@ -15,47 +15,6 @@
                 </div>
                 <div v-html="searchAndHighlight(searchText, rcp_2)"></div>
                 <v-gallery :images="rcp_gallery" :dark="true" :caption="false" ></v-gallery>
-                <!--div class="img-container">
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_1.jpg">
-                    <p class="cp9g">Pieza confeccionada en piedra, de probable uso ritual. El Carnero, municipio de Yara</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_2.jpg">
-                    <p class="cp9g">Pieza confeccionada en piedra de probable uso ritual. El Veinticinco, municipio de Yara</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_3.jpg">
-                    <p class="cp9g">Martillo hecho a partir de la concha del cobo. Guamito, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_4.jpg">
-                    <p class="cp9g">Collar confeccionado con vertebras modificadas de pescados y diente de tiburon. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_5.jpg">
-                    <p class="cp9g">Pendiente confeccionado a partir de un fragmento de concha. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_6.jpg">
-                    <p class="cp9g">Gubia y raspador.  Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_7.jpg">
-                    <p class="cp9g">Esfera de piedra. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_8.jpg">
-                    <p class="cp9g">Esfera de piedra perforada.  Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_9.jpg">
-                    <p class="cp9g">Percutor. Guamito, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_10.jpg">
-                    <p class="cp9g">Percutor. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_11.jpg">
-                    <p class="cp9g">Pendiente acodado. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_12.jpg">
-                    <p class="cp9g">Pendiente decorado. Playa de El Mango, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_13.jpg">
-                    <p class="cp9g">Mortero.  Valenzuela, Bayamo</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_14.jpg">
-                    <p class="cp9g">Mortero. Río Salado, Bayamo</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_15.jpg">
-                    <p class="cp9g">Puntas confeccionadas en conchas. Canal, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_16.jpg">
-                    <p class="cp9g">Resto de dieta, concha de cobo. Municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_17.jpg">
-                    <p class="cp9g">Sumergidor de redes. Canal, Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_18.jpg">
-                    <p class="cp9g">Cuchillo de sílex. Canal, municipio de Río Cauto</p>
-                    <img class="img" src="~@/assets/images/pages/comunidades/foto_19.jpg">
-                    <p class="cp9g">Herramientas de sílex. Canal, municipio de Río Cauto</p>
-                </div-->
-
             </div>
             <div :class="{'hidden' : c_menu!=1 }">
                 <div v-html="searchAndHighlight(searchText, ac_1)"></div>
@@ -64,45 +23,6 @@
                 </div>
                 <div v-html="searchAndHighlight(searchText, ac_2)"></div>
                 <v-gallery :images="ac_gallery" :dark="true" :caption="false" ></v-gallery>
-                <!--div class="img-container">
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_20.jpg">
-                    <p class="cp9g">Vasija. El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_21.jpg">
-                    <p class="cp9g"> Asa. El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_22.jpg">
-                    <p class="cp9g">Asas. Ocuje, municipio de Pilon</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_23.jpg">
-                    <p class="cp9g">Hacha de uso ceremonial. Pilon, municipio de Pilon</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_24.jpg">
-                    <p class="cp9g">Fragmentos de ceramica decorada. El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_25.jpg">
-                    <p class="cp9g">Asas. El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_26.jpg">
-                    <p class="cp9g">Asas. El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_27.jpg">
-                    <p class="cp9g">Hacha petaloide. Bayamo, municipio de Bayamo</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_28.jpg">
-                    <p class="cp9g">Raspadores confeccionados en concha. Ocuje, municipio de Pilon</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_29.jpg">
-                    <p class="cp9g">Fragmentos de burenes. Sitios Ocuje, en Pilon y sitios Belic y El Guafe, en Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_30.jpg">
-                    <p class="cp9g">A. Montaje museografico de un buren</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_31.jpg">
-                    <p class="cp9g"> Replica de remo. Gabinete de Arqueologia, Bayamo</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_32.jpg">
-                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_33.jpg">
-                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_34.jpg">
-                    <p class="cp9g">Idolo tallado en una cueva de El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_35.jpg"> 
-                    <p class="cp9g"> Idolo del Agua, tallado en una cueva de El Guafe, municipio de Niquero</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_36.jpg">
-                    <p class="cp9g"> Idolo del Agua, iluminado por el sol, el 23 de diciembre de 2013</p>
-                    <img class="img"  src="~@/assets/images/pages/comunidades/foto_37.jpg">
-                    <p class="cp9g"> Idolo de Bayamo, Valenzuela, Bayamo</p>
-                </div-->
-
             </div>
         </div>
     </vue-scrollbar>

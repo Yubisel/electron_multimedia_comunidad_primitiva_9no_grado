@@ -19,9 +19,9 @@ export default{
                         <li><span>Diseño:</span> DI. Mario Alejandro Rodríguez Blanco</li>
                         <li><span>Programación:</span> Ing. Raúl Alejandro Rondón Milanés</li>
                         <li><span>Programación:</span> Ing. Yubisel Vega Alvarez</li>
-                        <li><span>Corrección de textos:</span> MSc. Linnet Zurina Rodríguez Blanco</li>
+                        <li><span>Redacción y corrección de textos:</span> MSc. Linnet Zurina Rodríguez Blanco</li>
                     </ul>
-                    ISBN: 
+                    <p>ISBN: Solicitado</p>
                     <h3>Fotos cortesía de:</h3>
                     <p>Mesa Bauzá, Ramón. Pintor. Centro de Desarrollo de las Artes Visuales de Granma. Foto No. 36. </p>
                     <p>Valerino Cámbar, Lino. Presidente de la Sociedad de Fotógrafos de Bayamo. Fotos No. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19, 20, 21, 22, 23, 24 y 25. </p>

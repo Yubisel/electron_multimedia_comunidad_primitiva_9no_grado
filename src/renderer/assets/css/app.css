@@ -143,6 +143,11 @@
     ul.content-switcher li a.is-active{
       background: #e4a600;
     }
+    
+    .glosario span{
+          font-weight: bold;
+          font-style: italic;
+  }
     /*------------------------------------- scrollbar style -----------------------------------------*/
 .my-scrollbar {
     width: 100%;
