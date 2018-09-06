@@ -16,7 +16,6 @@ export default{
     data(){
             return {
                 list: [
-                    {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_1.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_2.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_3.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_4.jpg'},

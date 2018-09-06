@@ -61,7 +61,7 @@ export default{
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_43.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_44.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_45.jpg'},
-                    {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_46.jpg'},
+                    
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_47.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_48.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_49.jpg'},
@@ -104,9 +104,9 @@ export default{
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_86.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_87.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_88.jpg'},
-                    {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_89.jpg'},
-                    {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_90.jpg'},
-                    {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_91.jpg'},
+                    
+
+                    
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_92.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_93.jpg'},
                     {title:'Imágenes Ottón',url:'static/images/pages/gallery/otton/otton_94.jpg'},

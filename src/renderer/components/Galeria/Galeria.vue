@@ -16,13 +16,13 @@
             <v-gallery :images="otton" :dark="true" :caption="false" ></v-gallery>
             <br>
             <h3>
-                Idolos y Piezas de Niquero
+                Ídolos y piezas de Niquero
                 <router-link :to="{ name: 'galeria-idolos' }" class="more">Ver más</router-link>
             </h3>
             <v-gallery :images="idolos" :dark="true" :caption="false" ></v-gallery>
             <br>
             <h3>
-                Imágenes Sitios Arqueológicos
+                Imágenes de sitios arqueológicos
                 <router-link :to="{ name: 'galeria-sitios' }" class="more">Ver más</router-link>
             </h3>
             <v-gallery :images="sitios" :dark="true" :caption="false" ></v-gallery>
@@ -36,13 +36,13 @@ export default{
     data(){
             return {
                 idolos: [
-                    {title:'Idolos y Piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_10.jpg'},
-                    {title:'Idolos y Piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_20.jpg'},
-                    {title:'Idolos y Piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_30.jpg'},
-                    {title:'Idolos y Piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_40.jpg'},
+                    {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_10.jpg'},
+                    {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_20.jpg'},
+                    {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_30.jpg'},
+                    {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_40.jpg'},
                 ],
                 martinez: [
-                    {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_1.jpg'},
+                    {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_2.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_20.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_30.jpg'},
                     {title:'Imágenes Martínez',url:'static/images/pages/gallery/martinez/martinez_40.jpg'},

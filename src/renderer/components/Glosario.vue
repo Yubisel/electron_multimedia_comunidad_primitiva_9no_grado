@@ -12,7 +12,7 @@ export default{
     data() {
         return {
             content: `<h2>Glosario</h2>
-                    <p><span>Arte rupestre:</span>  Se refierea las pinturas u otras manifestaciones de la actividad de los aborígenes sobre las paredes de las cuevas o de las rocas en general. </p>
+                    <p><span>Arte rupestre:</span>  Se refiere a las pinturas u otras manifestaciones de la actividad de los aborígenes sobre las paredes de las cuevas o de las rocas en general. </p>
                     <p><span>Behíque:</span>  Hechicero, médico y guardián de la memoria oral (historia) de la comunidad. </p>
                     <p><span>Cacique:</span>  En los grupos de agricultores- ceramistas, era la persona encargada de dirigir y organizar las actividades de la comunidad; el desempeño de esta función le reconocía autoridad sobre la misma. </p>
                     <p><span>Cantos rodados:</span>  Se refiere a fragmentos de rocas que los ríos arrastran en sus aguas y que por lo general son de formas redondeadas. </p>

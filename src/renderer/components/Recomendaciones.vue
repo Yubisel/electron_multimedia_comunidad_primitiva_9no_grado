@@ -13,7 +13,7 @@ export default{
         return {
             content: `<h2>Recomendaciones para la protección de los sitios arqueológicos</h2>
                     <p>Los sitios arqueológicos forman parte del patrimonio cultural de la nación. Por sus características son muy vulnerables ante la acción de la actividad humana, de la naturaleza y de la combinación de ambos elementos. Para su investigación efectiva, no deben estar alterados o en lo posible, escasamente alterados, y deben mantener la secuencia de deposición de los materiales; de ahí la importancia de su protección. </p>
-                    <p>La investigación arqueológica es un trabajo especializado y sus resultados dependen en gran medida del estado de conservación del residuario. En caso de que usted tenga información de la existencia de un sitio arqueológico, lo correcto es no emprender acciones sobre este con el objetivo de obtener piezas o información. Deberá comunicarse así con los especialistas del Centro Provincial de Patrimonio de Granma y esto es posible a través de las siguientes instituciones en cada municipio: </p>
+                    <p>La investigación arqueológica es un trabajo especializado y sus resultados dependen en gran medida del estado de conservación del residuario. En caso de que usted tenga información de la existencia de un sitio arqueológico, lo correcto es no emprender acciones sobre este con el objetivo de obtener piezas o información. Deberá comunicarse así con los especialistas del Centro Provincial de Patrimonio Cultural de Granma y esto es posible a través de las siguientes instituciones en cada municipio: </p>
                     <h3>Museo Municipal de Bartolomé Masó</h3>
                     <p>Dirección: Avenida Bartolomé Masó S/N.
                     Teléfono 23565192</p>
@@ -43,7 +43,7 @@ export default{
                     <h3>Museo Municipal de Media Luna “Dr. Manuel Sánchez Silveira” </h3>
                     <p>Dirección: Calle Anselmo Vega # 16 Reparto El Carmen
                     Teléfono:23 593341 </p>
-                    <h3>Museo Municipalde Manzanillo</h3>
+                    <h3>Museo Municipal de Manzanillo</h3>
                     <p>Dirección: Calle Martí # 226 e/ Masó y Maceo 
                     Teléfono: 23572053 </p>
                     <h3>Museo Municipal de Niquero</h3>

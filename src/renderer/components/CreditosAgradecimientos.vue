@@ -14,8 +14,9 @@ export default{
             content: `<h2>Créditos</h2>
                     <p>Esta multimedia es el resultado del trabajo conjunto de la Casa de la Nacionalidad Cubana, el Centro Provincial de Patrimonio Cultural de Granma y su red de instituciones. </p>
                     <ul>
-                        <li><span>Realización:</span> MSc.José Manuel Yero Masdeu</li>
-                        <li><span>Edición:</span> Lic. AndriaSamz Aliaga</li>
+                        <li><span>Autor:</span> MSc.José Manuel Yero Masdeu</li>
+                        <li><span>Edición:</span> Lic. Andria Samz Aliaga</li>
+                        <li><span>Diseño:</span> DI. Alberto Miguel Nuevo Rojo</li>
                         <li><span>Diseño:</span> DI. Mario Alejandro Rodríguez Blanco</li>
                         <li><span>Programación:</span> Ing. Raúl Alejandro Rondón Milanés</li>
                         <li><span>Programación:</span> Ing. Yubisel Vega Alvarez</li>

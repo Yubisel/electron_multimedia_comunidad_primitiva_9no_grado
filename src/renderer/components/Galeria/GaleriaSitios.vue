@@ -14,7 +14,7 @@
             <h3>Ovejuela</h3>
             <v-gallery :images="ovejuela" :dark="true" :caption="false" ></v-gallery>
             <br>
-            <h3>Playa de El Mango</h3>
+            <h3>Playa El Mango</h3>
             <v-gallery :images="playa" :dark="true" :caption="false" ></v-gallery>
         </div>
     </vue-scrollbar>
@@ -42,14 +42,14 @@ export default{
                     {title:'Ovejuela',url:'static/images/pages/gallery/sitios/ovejuela/ovejuela_5.jpg'},
                 ],
                 playa: [
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_1.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_2.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_3.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_4.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_5.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_6.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_7.jpg'},
-                    {title:'Playa de El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_8.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_1.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_2.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_3.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_4.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_5.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_6.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_7.jpg'},
+                    {title:'Playa El Mango',url:'static/images/pages/gallery/sitios/playa_de_el_mango/playa_8.jpg'},
                 ],
             }
         }
