@@ -46,7 +46,7 @@ export default{
                     
                     {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_42.jpg'},
                     
-                    {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_49.jpg'},
+                    
                     {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_50.jpg'},
                     
                     {title:'Ídolos y piezas de Niquero',url:'static/images/pages/gallery/idolos/idolos_52.jpg'},

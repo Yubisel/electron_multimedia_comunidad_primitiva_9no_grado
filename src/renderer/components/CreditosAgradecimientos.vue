@@ -29,6 +29,7 @@ export default{
                     <p>Yero Masdeu, José Manuel. Investigador de la Casa de la Nacionalidad  Cubana. Bayamo, Granma. Fotos No. 16, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34 y 35. </p>
                     <p>Autor desconocido. Foto No. 29-A</p>
                     <h2>Agradecimientos:</h2>
+                    <p>Dr. C. Ulises Miguel González Herrera, investigador del Instituto Cubano de Antropología.</p>
                     <p>Lic. Yordan Roberto León Rodríguez, Director Provincial de Cultura. Granma.</p>
                     <p>MSc. Rubier Enrique Corría Iglesias, responsable de la Comisión Provincial de Historia, de la Dirección Provincial de Educación. Granma. </p>
                     <p>MSc. Enrique Sol Aguilar, metodólogo de Historia de la Educación Primaria, en la Dirección Provincial de Educación. Granma. </p>

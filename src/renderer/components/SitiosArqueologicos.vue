@@ -111,7 +111,7 @@
                 media_luna_2: `<p class="cp9g">Ubicación de los sitios arqueológicos reportados en el municipio Media Luna</p>`,
                 niquero_1: `<h2>Niquero</h2>`,
                 niquero_2: `<p class="cp9g">Ubicación de los sitios arqueológicos reportados en el municipio Niquero</p>`,
-                rio_cauto_1: `<h2>Municipio de Río Cauto</h2>`,
+                rio_cauto_1: `<h2>Río Cauto</h2>`,
                 rio_cauto_2: `<p class="cp9g">Ubicación de los sitios arqueológicos reportados en el municipio Río Cauto</p>`,
                 pilon_1: `<h2>Pilón</h2>`,
                 pilon_2: `<p class="cp9g">Ubicación de los sitios arqueológicos reportados en el municipio Pilón</p>`,

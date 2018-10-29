@@ -26,7 +26,7 @@ export default{
                     <p>Mapa No.1 – Confeccionado a partir de: Dacal Moure, R., Rivero de la Calle, M. (1986). Arqueología Aborigen de Cuba. La Habana,  Cuba: Gente Nueva.</p>
                     <p>Mapa No.2 –Confeccionado a partir de: Dacal Moure, R., Rivero de la Calle, M. (1986). Arqueología Aborigen de Cuba. La Habana,  Cuba: Gente Nueva.</p>
                     <p>Mapa No.3-. Confeccionado a partir de información tomada de: García, F., Pérez, I., Pino, M. (1989). Mapa XXIV.1.2 Principales Hipótesis sobre las vías de migración de la población aborigen en las etapas de la comunidad primitiva. Nuevo Atlas Nacional de Cuba. Instituto de Geografía de la Academia de Ciencias de Cuba. Madrid. </p>
-                    <p>Los restantes planos de los asentamientos por municipios, fueron confeccionados por el realizador de esta multimedia a partir de la información obtenida de las Cartillas del Censo de Sitios Arqueológicos. </p>`,
+                    <p>Los restantes planos de los asentamientos por municipios, fueron confeccionados por el autor de esta multimedia a partir de la información obtenida de las Cartillas del Censo de Sitios Arqueológicos. </p>`,
         }
     }
 }
