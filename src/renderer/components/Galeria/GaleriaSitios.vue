@@ -14,7 +14,7 @@
             <h3>Ovejuela</h3>
             <v-gallery :images="ovejuela" :dark="true" :caption="false" ></v-gallery>
             <br>
-            <h3>Playa El Mango</h3>
+            <h3>Playa de El Mango</h3>
             <v-gallery :images="playa" :dark="true" :caption="false" ></v-gallery>
         </div>
     </vue-scrollbar>

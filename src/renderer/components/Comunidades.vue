@@ -73,7 +73,7 @@
                     {title:'14 Mortero. Río Salado, municipio Bayamo',url:'static/images/pages/comunidades/foto_14.jpg'},
                     {title:'15 Puntas confeccionadas en conchas. Canal, municipio Río Cauto',url:'static/images/pages/comunidades/foto_15.jpg'},
                     {title:'16 Resto de dieta, concha de cobo. Municipio Río Cauto',url:'static/images/pages/comunidades/foto_16.jpg'},
-                    {title:'17 Sumergidor de redes. Canal, Río Cauto',url:'static/images/pages/comunidades/foto_17.jpg'},
+                    {title:'17 Sumergidor de redes. Canal, municipio Río Cauto',url:'static/images/pages/comunidades/foto_17.jpg'},
                     {title:'18 Cuchillo de sílex. Canal, municipio Río Cauto',url:'static/images/pages/comunidades/foto_18.jpg'},
                     {title:'19 Herramientas de sílex. Canal, municipio Río Cauto',url:'static/images/pages/comunidades/foto_19.jpg'},
                 ],
@@ -117,7 +117,7 @@
                     {title:'33 Ídolo tallado en una cueva de El Guafe, municipio Niquero',url:'static/images/pages/comunidades/foto_34.jpg'},
                     {title:'34 Ídolo del Agua, tallado en una cueva de El Guafe, municipio Niquero',url:'static/images/pages/comunidades/foto_35.jpg'},
                     {title:'35 Ídolo del Agua, iluminado por el sol, el 23 de diciembre de 2013',url:'static/images/pages/comunidades/foto_36.jpg'},
-                    {title:'36 Ídolo de Bayamo, Valenzuela, Bayamo',url:'static/images/pages/comunidades/foto_37.jpg'},
+                    {title:'36 Ídolo de Bayamo, sitio indeterminado, municipio Bayamo',url:'static/images/pages/comunidades/foto_37.jpg'},
                 ],
             }
         }
