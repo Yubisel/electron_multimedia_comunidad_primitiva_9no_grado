@@ -21,7 +21,7 @@
     "postinstall": ""
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.18.1",
     "bp-vuejs-dropdown": "^2.1.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
